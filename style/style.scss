@@ -2561,6 +2561,11 @@ $dark-bg: rgba(69, 160, 217, 0.50);
         grid-template-columns: 1fr;
     }
 
+    .processcont .processbox .row.mt-5{
+        flex-direction: column-reverse;
+        margin-top: 0 !important;
+    }
+
     .processcont .processbox::after{
         display: none;
     }
