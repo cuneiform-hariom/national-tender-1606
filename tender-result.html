@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+
+
+  <head>
+
+
+    <meta charset="UTF-8" />
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+    <title>Tender Result - National Tenders</title>
+
+
+    <!-- link css -->
+
+
+    <link rel="stylesheet" href="./style/style.css" />
+
+
+    <!-- bootstrap css  -->
+
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+    <!-- fontawesome cdn -->
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+
+    <!-- jqyery cdn  -->
+
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+    <link rel="stylesheet" href="./style/custom.css" />
+
+
+  </head>
+
+
+  <body>
+
+
+    <!-- login box start -->
+
+
+    <div class="LoginWrap loginBox">
+
+
+    <div class="loginBoxInner">
+
+
+      <div class="row">
+
+
+        <div class="col-lg-6">
+
+
+          <div class="login-left">
+
+
+            <h3>Let’s Get Started</h3>
+
+
+            <div class="login-form">
+
+
+              <form action="">
+
+
+                <div>
+
+
+                  <label for="mobile">Mobile Number</label><br />
+
+
+                  <input type="tel" name="mobile" id="mobile" placeholder="+91-9876543210" required />
+
+
+                </div>
+
+
+                <div>
+
+
+                  <label for="otp">OTP</label><br />
+
+
+                  <input type="number" name="otp" id="otp" required /><br />
+
+
+                  <a href="#">Resend OTP</a>
+
+
+                </div>
+
+
+                <div class="acceptence">
+
+
+                  <input type="checkbox" id="check1" name="check1" value="whatsapp" required />
+
+
+                  <label for="check1"> By signing in, you agree with our Terms of Use.</label>
+
+
+                </div>
+
+
+                <div>
+
+
+                  <button type="submit">Submit OTP</button>
+
+
+                </div>
+
+
+              </form>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+        <div class="col-lg-6">
+
+
+          <div class="login-points">
+
+
+            <img src="./assets/logo.png" alt="logo" />
+
+
+            <div class="login-icon-box">
+
+
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+
+
+              <div class="list">
+
+
+                <h3>Where can I get some?</h3>
+
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="login-icon-box">
+
+
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+
+
+              <div class="list">
+
+
+                <h3>Where can I get some?</h3>
+
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="login-icon-box">
+
+
+              <i class="fa-solid fa-magnifying-glass-dollar"></i>
+
+
+              <div class="list">
+
+
+                <h3>Where can I get some?</h3>
+
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <button id="close"><i class="fa-solid fa-xmark"></i></button>
+
+
+    </div>
+
+
+  </div>
+
+
+    <!-- login box end -->
+
+
+    <!-- header start -->
+
+
+    <div class="MainHeader">
+
+
+      <div class="TopHeader">
+
+
+        <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+
+
+      </div>
+
+
+      <nav class="navbar navbar-expand-lg">
+
+
+        <div class="container-fluid">
+
+
+          <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+
+            <span class="navbar-toggler-icon"></span>
+
+
+          </button>
+
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+              <li class="nav-item dropdown">
+
+
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Search tenders by </a>
+
+
+                <ul class="dropdown-menu">
+
+
+                  <li><a class="dropdown-item" href="#">Category</a></li>
+
+
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+
+
+                  <li><a class="dropdown-item" href="#">Department</a></li>
+
+
+                </ul>
+
+
+              </li>
+
+
+              <li class="nav-item"><a class="nav-link" href="#">Tender Submissions</a></li>
+
+
+              <li class="nav-item"><a class="nav-link" href="#">Pricing Plans</a></li>
+
+
+              <li class="nav-item">
+
+
+                <a class="nav-link icon-link" href="#"><i class="fa-solid fa-phone"></i></a>
+
+
+              </li>
+
+
+              <li class="nav-item"><p class="nav-link" id="login" style="margin: 0;cursor: pointer;">Login</p></li>
+
+
+            </ul>
+
+
+            <a href="#" class="nav-btn">START FREE TRIAL</a>
+
+
+          </div>
+
+
+        </div>
+
+
+      </nav>
+
+
+    </div>
+
+
+    <!-- header end  -->
+
+
+    <!-- body start  -->
+
+
+    <main id="InnerPage">
+
+
+      <div class="servBanner">
+
+
+        <div class="Breadcom">
+
+
+          <div class="container-fluid">
+
+
+            <ul class="List">
+
+
+              <li><a href="#">Home </a></li>
+
+
+              <li class="Space">&gt;</li>
+
+
+              <li class="activeB">GEM</li>
+
+
+            </ul>
+
+
+          </div>
+
+
+        </div>
+
+
+        <div class="VideoBoxContent">
+
+
+          <div class="container">
+
+
+            <div class="row">
+
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+                <div class="youtube-video">
+
+
+                  <iframe
+
+
+                    width="560"
+
+
+                    height="315"
+
+
+                    src="https://www.youtube.com/embed/fIkU0BW1ioE"
+
+
+                    title="YouTube video player"
+
+
+                    frameborder="0"
+
+
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+
+
+                    allowfullscreen=""
+
+
+                  ></iframe>
+
+
+                </div>
+
+
+              </div>
+
+
+              <div class="col-lg-6 col-md-6 col-sm-12">
+
+
+                <div class="servBannerRightbox">
+
+
+                  <h2>Tender Information Solution</h2>
+
+
+                  <p><img src="assets/arrow-list.svg" />Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+
+
+                  <!-- <a href="#" class="cta">SUBMIT</a> -->
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="servSec2 WrapTwo">
+
+
+        <h2 class="sec-title text-center">Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...</h2>
+
+
+        <div class="container">
+
+
+          <div class="custom-grid">
+
+
+            <div class="gridBox1 gridBox">
+
+
+              <h3 class="sec-title">Lorem Ipsum</h3>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur ex recusandae optio, illo blanditiis.</p>
+
+
+            </div>
+
+
+            <div class="gridBox2 gridBox">
+
+
+              <h3 class="sec-title">Lorem Ipsum</h3>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur ex recusandae optio, illo blanditiis.</p>
+
+
+            </div>
+
+
+            <div class="gridBox3 gridBox">
+
+
+              <h3 class="sec-title">Lorem Ipsum</h3>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur ex recusandae optio, illo blanditiis.</p>
+
+
+            </div>
+
+
+            <div class="gridBox4 gridBox">
+
+
+              <h3 class="sec-title">Lorem Ipsum</h3>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias tenetur ex recusandae optio, illo blanditiis.</p>
+
+
+            </div>
+
+
+            <div class="gridBox titleBox">
+
+
+              <img src="./assets/title user.png" alt="" />
+
+
+              <h3 class="sec-title text-center">Lorem Ipsum</h3>
+
+
+              <h1 class="text-center">LOREM</h1>
+
+
+              <h2 class="sec-title text-center">Lorem Ipsum</h2>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="servSec3 WrapThird container-fluid">
+
+
+        <div class="BoxDes">
+
+
+          <div class="row">
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 box">
+
+
+              <h4 class="sec-title">Lorem Ipsum is simply</h4>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero.</p>
+
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 box">
+
+
+              <h4 class="sec-title">Lorem Ipsum is simply</h4>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero.</p>
+
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 box">
+
+
+              <h4 class="sec-title">Lorem Ipsum is simply</h4>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero.</p>
+
+
+            </div>
+
+
+            <div class="col-lg-3 col-md-6 col-sm-12 box">
+
+
+              <h4 class="sec-title">Lorem Ipsum is simply</h4>
+
+
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, vero.</p>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="servFeature">
+
+
+        <h2 class="sec-title text-center">Features Of <span>Service</span></h2>
+
+
+        <div class="fetBoxes container">
+
+
+          <div class="grid-4">
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/customer.png" alt="" />
+
+
+              <p>Access of multiple tender result at one place</p>
+
+
+            </div>
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/follower.png" alt="" />
+
+
+              <p>Filter and Shorting tool to get right tender result</p>
+
+
+            </div>
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/insurance.png" alt="" />
+
+
+              <p>Sub-contracting Opportunities</p>
+
+
+            </div>
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/user.png" alt="" />
+
+
+              <p>Competitive Bidder Bid Analysis</p>
+
+
+            </div>
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/withdrawal.png" alt="" />
+
+
+              <p>Track your Competitor Activity</p>
+
+
+            </div>
+
+
+            <div class="fetBox">
+
+
+              <img src="./assets/fet-icons/process.png" alt="" />
+
+
+              <p>Know more bidder of your industry</p>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="servSec5 WrapFif">
+
+
+        <h2 class="sec-title text-center">The standard <span>Lorem Ipsum </span> passage</h2>
+
+
+        <div class="container">
+
+
+          <div class="row mt-5 mb-5">
+
+
+            <div class="col-lg-8 col-md-8 col-sm-12">
+
+
+              <div class="list-boxes">
+
+
+                <div class="list">
+
+
+                  <h3 class="list-count">01</h3>
+
+
+                  <div class="list-content">
+
+
+                    <h2>The standard Lorem Ipsum passage, used since the 1500s</h2>
+
+
+                    <p>
+
+
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+
+                    </p>
+
+
+                  </div>
+
+
+                </div>
+
+
+                <div class="list">
+
+
+                  <h3 class="list-count">02</h3>
+
+
+                  <div class="list-content">
+
+
+                    <h2>The standard Lorem Ipsum passage, used since the 1500s</h2>
+
+
+                    <p>
+
+
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+
+                    </p>
+
+
+                  </div>
+
+
+                </div>
+
+
+                <div class="list">
+
+
+                  <h3 class="list-count">03</h3>
+
+
+                  <div class="list-content">
+
+
+                    <h2>The standard Lorem Ipsum passage, used since the 1500s</h2>
+
+
+                    <p>
+
+
+                      Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+
+
+                    </p>
+
+
+                  </div>
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+            <div class="col-lg-4 col-md-4 col-sm-12">
+
+
+              <div class="LeftWrap" style="background: url(./assets/close-up-hands-businesspeople-work.png);"></div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="quote">
+
+
+        <div class="container">
+
+
+          <h2 class="sec-title text-center mb-5">Get free quote on <span>TENDER BIDDING</span></h2>
+
+
+          <div class="quote-form-box">
+
+
+            <form class="quote-form" action="">
+
+
+              <div class="inps">
+
+
+                <input type="text" name="name" id="name" placeholder="Name" autocomplete="off" />
+
+
+                <input type="text" name="comp_name" id="comp_name" placeholder="Company Name" autocomplete="off" />
+
+
+                <input type="tel" name="phone" id="phone" placeholder="Mobile number" autocomplete="off" />
+
+
+                <input type="email" name="email" id="email" placeholder="Email" autocomplete="off" />
+
+
+              </div>
+
+
+              <div class="textarea">
+
+
+                <textarea name="message" id="message" placeholder="Looking for..." autocomplete="off"></textarea>
+
+
+              </div>
+
+
+              <button type="submit">SUBMIT</button>
+
+
+            </form>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+      <div class="FaqWrap">
+
+
+            <div class="container-fluid">
+
+
+
+
+
+                <div class="FaqContentWrap">
+
+
+                    <h3>Frequently <span> Asked</span> Questions</h3>
+
+
+                    <div class="accordion" id="accordionExample">
+
+
+
+
+
+                        <div class="accordion-item">
+
+
+                            <h2 class="accordion-header" id="headingOne">
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+
+                                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+
+
+                                    Do you also help in e Tender Submission?
+
+
+                                </button>
+
+
+                            </h2>
+
+
+                            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne"
+
+
+                                data-bs-parent="#accordionExample">
+
+
+                                <div class="accordion-body">
+
+
+                                    <strong> Do you also help in e Tender Submission? </strong> It is hidden by default,
+
+
+                                    until the collapse plugin adds the appropriate classes
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="accordion-item">
+
+
+                            <h2 class="accordion-header" id="headingTwo">
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+
+                                    data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+
+
+                                    How is End-to-End bid submission service charged?
+
+
+                                </button>
+
+
+                            </h2>
+
+
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+
+
+                                data-bs-parent="#accordionExample">
+
+
+                                <div class="accordion-body">
+
+
+                                    <strong>How is End-to-End bid submission service charged? </strong> It is hidden by
+
+
+                                    default, until the collapse plugin adds the appropriate classes
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="accordion-item">
+
+
+                            <h2 class="accordion-header" id="headingThree">
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+
+                                    data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+
+
+                                    Which are the countries you provide the support?
+
+
+                                </button>
+
+
+                            </h2>
+
+
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+
+
+                                data-bs-parent="#accordionExample">
+
+
+                                <div class="accordion-body">
+
+
+                                    <strong>Which are the countries you provide the support? </strong> It is hidden by
+
+
+                                    default, until the collapse plugin adds the appropriate classes
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="accordion-item">
+
+
+                            <h2 class="accordion-header" id="headingFour">
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+
+                                    data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+
+
+                                    Who can avail Bid Facilitation and Consultancy Services?
+
+
+                                </button>
+
+
+                            </h2>
+
+
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+
+
+                                data-bs-parent="#accordionExample">
+
+
+                                <div class="accordion-body">
+
+
+                                    <strong>Who can avail Bid Facilitation and Consultancy Services?</strong> It is
+
+
+                                    hidden by default, until the collapse plugin adds the appropriate classes
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="accordion-item">
+
+
+                            <h2 class="accordion-header" id="headingFive">
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+
+
+                                    data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+
+
+                                    What Are the Steps to Take in the Tender Process?
+
+
+                                </button>
+
+
+                            </h2>
+
+
+                            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+
+
+                                data-bs-parent="#accordionExample">
+
+
+                                <div class="accordion-body">
+
+
+                                    <strong>What Are the Steps to Take in the Tender Process? </strong> It is hidden by
+
+
+                                    default, until the collapse plugin adds the appropriate classes
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+
+
+
+                    </div>
+
+
+                </div>
+
+
+
+
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="much-more">
+
+
+            <h2 class="text-center grad-text">And <span> much</span> more</h2>
+
+
+            <p class="text-center">Solutions for your business intelligence</p>
+
+
+
+
+
+            <div class="container">
+
+
+              <div class="grid-5">
+
+
+                <div class="i-box">
+
+
+                  <img src="./assets/home_img/icons/bidding.png" alt="" />
+
+
+                  <p>Tender Bidding</p>
+
+
+                </div>
+
+
+                <div class="i-box">
+
+
+                  <img src="./assets/home_img/icons/tenderizer.png" alt="" />
+
+
+                  <p>GEM</p>
+
+
+                </div>
+
+
+                <div class="i-box">
+
+
+                  <img src="./assets/home_img/icons/info.png" alt="" />
+
+
+                  <p>Tender Information</p>
+
+
+                </div>
+
+
+                <div class="i-box">
+
+
+                  <img src="./assets/home_img/icons/udhyam.png" alt="" />
+
+
+                  <p>Udhyam Registration</p>
+
+
+                </div>
+
+
+                <div class="i-box">
+
+
+                  <img src="./assets/home_img/icons/vendor.png" alt="" />
+
+
+                  <p>Value Added Services</p>
+
+
+                </div>
+
+
+
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+
+
+
+        <div class="trusted TrustedReview">
+
+
+            <h2 class="text-center">Trusted & endorsed by <span> industry experts</span> & partners</h2>
+
+
+            <div class="ReviewBoxWrap">
+
+
+                <div class="container">
+
+
+                    <div class="row">
+
+
+                        <div class="col-lg-6 col-md-6">
+
+
+                            <div class="LeftWrap">
+
+
+                                <img src="assets/testimi.png" />
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+
+
+                        <div class="col-lg-6 col-md-6">
+
+
+                            <div class="RightWrap">
+
+
+                                <div class="review owl-carousel owl-theme owl-loaded">
+
+
+                                    <div class="owl-stage-outer">
+
+
+                                        <div class="owl-stage">
+
+
+                                            <div class="owl-item">
+
+
+                                                <div class="ReviewBox">
+
+
+                                                    <img src="assets/bra.svg" class="Quote" />
+
+
+                                                    <div class="TxtBox">
+
+
+                                                        <p class="Name">Jaquon Hart</p>
+
+
+                                                        <span class="Comp">Paint Industry</span>
+
+
+                                                        <p class="star"><i class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i></p>
+
+
+                                                        <p class="RevTxt">“With Ehya, we’re able to easily track our
+
+
+                                                            performance in full detail. It’s become an essential tool
+
+
+                                                            for us to grow and engage with our audience.”</p>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+
+
+                                            <div class="owl-item">
+
+
+                                                <div class="ReviewBox">
+
+
+                                                    <img src="assets/bra.svg" class="Quote" />
+
+
+                                                    <div class="TxtBox">
+
+
+                                                        <p class="Name">Jaquon Hart</p>
+
+
+                                                        <span class="Comp">Paint Industry</span>
+
+
+                                                        <p class="star"><i class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i></p>
+
+
+                                                        <p class="RevTxt">“With Ehya, we’re able to easily track our
+
+
+                                                            performance in full detail. It’s become an essential tool
+
+
+                                                            for us to grow and engage with our audience.”</p>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                            <div class="owl-item">
+
+
+                                                <div class="ReviewBox">
+
+
+                                                    <img src="assets/bra.svg" class="Quote" />
+
+
+                                                    <div class="TxtBox">
+
+
+                                                        <p class="Name">Jaquon Hart</p>
+
+
+                                                        <span class="Comp">Paint Industry</span>
+
+
+                                                        <p class="star"><i class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i></p>
+
+
+                                                        <p class="RevTxt">“With Ehya, we’re able to easily track our
+
+
+                                                            performance in full detail. It’s become an essential tool
+
+
+                                                            for us to grow and engage with our audience.”</p>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+
+
+                                            <div class="owl-item">
+
+
+                                                <div class="ReviewBox">
+
+
+                                                    <img src="assets/bra.svg" class="Quote" />
+
+
+                                                    <div class="TxtBox">
+
+
+                                                        <p class="Name">Jaquon Hart</p>
+
+
+                                                        <span class="Comp">Paint Industry</span>
+
+
+                                                        <p class="star"><i class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i></p>
+
+
+                                                        <p class="RevTxt">“With Ehya, we’re able to easily track our
+
+
+                                                            performance in full detail. It’s become an essential tool
+
+
+                                                            for us to grow and engage with our audience.”</p>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+
+
+
+                                            <div class="owl-item">
+
+
+                                                <div class="ReviewBox">
+
+
+                                                    <img src="assets/bra.svg" class="Quote" />
+
+
+                                                    <div class="TxtBox">
+
+
+                                                        <p class="Name">Jaquon Hart</p>
+
+
+                                                        <span class="Comp">Paint Industry</span>
+
+
+                                                        <p class="star"><i class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i> <i
+
+
+                                                                class="fa-solid fa-star"></i></p>
+
+
+                                                        <p class="RevTxt">“With Ehya, we’re able to easily track our
+
+
+                                                            performance in full detail. It’s become an essential tool
+
+
+                                                            for us to grow and engage with our audience.”</p>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+
+                                            </div>
+
+
+                                        </div>
+
+
+                                    </div>
+
+
+                                </div>
+
+
+                            </div>
+
+
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+    <!-- body end -->
+
+
+    <!-- footer start -->
+
+
+    <footer class="footer">
+
+
+      <div class="container-fluid">
+
+
+        <div class="footer-box footer-box1">
+
+
+          <div class="footer-title">
+
+
+            <h3>TENDER BY CATEGORIES</h3>
+
+
+            <a href="#" class="view">View All</a>
+
+
+          </div>
+
+
+          <ul class="link-box">
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+          </ul>
+
+
+        </div>
+
+
+        <div class="footer-box footer-box2">
+
+
+          <div class="footer-title">
+
+
+            <h3>TENDER BY STATES</h3>
+
+
+            <a href="#" class="view">View All</a>
+
+
+          </div>
+
+
+          <ul class="link-box">
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+          </ul>
+
+
+        </div>
+
+
+        <div class="footer-box footer-box3">
+
+
+          <div class="footer-title">
+
+
+            <h3>TENDER BY AUTHORITIES</h3>
+
+
+            <a href="#" class="view">View All</a>
+
+
+          </div>
+
+
+          <ul class="link-box">
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+            <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+          </ul>
+
+
+        </div>
+
+
+        <div class="footer-last-box">
+
+
+          <div class="row footer-quick">
+
+
+            <div class="col">
+
+
+              <div class="footer-title">
+
+
+                <h3>QUICK LINKS</h3>
+
+
+              </div>
+
+
+              <ul class="quickLinks">
+
+
+                <li><a href="#" class="quicklink">Event</a></li>
+
+
+                <li><a href="#" class="quicklink">Pay Online</a></li>
+
+
+                <li><a href="#" class="quicklink">Career</a></li>
+
+
+                <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+
+
+                <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+
+
+                <li><a href="#" class="quicklink">Blogs</a></li>
+
+
+                <li><a href="#" class="quicklink">Achievements</a></li>
+
+
+              </ul>
+
+
+            </div>
+
+
+            <div class="col">
+
+
+              <div class="footer-title">
+
+
+                <h3>OUR ALL SERVICES</h3>
+
+
+              </div>
+
+
+              <ul class="quickLinks">
+
+
+                <li><a href="#" class="quicklink">GeM</a></li>
+
+
+                <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+
+
+                <li><a href="#" class="quicklink">Tender Information</a></li>
+
+
+                <li><a href="#" class="quicklink">Tender Results</a></li>
+
+
+              </ul>
+
+
+            </div>
+
+
+            <div class="col-lg-4">
+
+
+              <div class="footer-title">
+
+
+                <h3>VIDEO GALLERY</h3>
+
+
+                <a href="#" class="view">View All</a>
+
+
+              </div>
+
+
+              <ul class="quickLinks">
+
+
+                <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+
+
+                <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+
+
+                <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+
+
+                <li><a href="#" class="quicklink">Government Tender Information</a></li>
+
+
+                <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+
+
+                <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+
+
+              </ul>
+
+
+            </div>
+
+
+            <div class="col-lg-3">
+
+
+              <div class="contact-link">
+
+
+                <div class="cont-icon-box">
+
+
+                  <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+
+
+                  <p>
+
+
+                    Sales: +91 7383 93 4054 <br />
+
+
+                    Care: +91 7383 93 1002
+
+
+                  </p>
+
+
+                </div>
+
+
+                <div class="cont-icon-box">
+
+
+                  <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+
+
+                  <p>Info@Nationaltenders.In</p>
+
+
+                </div>
+
+
+                <div class="social-icon-box">
+
+
+                  <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+
+                  <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+
+
+                  <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+
+
+                  <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+
+
+                </div>
+
+
+              </div>
+
+
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+
+    </footer>
+
+
+    <div class="copyright-bar">
+
+
+      <div class="container-fluid">
+
+
+        <div class="copy-bar">
+
+
+          <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+
+
+          <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+
+
+        </div>
+
+
+      </div>
+
+
+    </div>
+
+
+    <!-- footer end -->
+
+
+    <!-- bootstrap js  -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <!-- script js -->
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+    <!-- script js -->
+
+
+    <script src="./script/app.js"></script>
+
+
+    <script src="./script/slick.js"></script>
+
+
+    <script src="./script/custom.js"></script>
+
+
+  </body>
+
+
+</html>
+
+

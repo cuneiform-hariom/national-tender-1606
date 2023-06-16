@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8" />
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Tender Submission - National Tenders</title>
+
+  <!-- link css -->
+
+  <link rel="stylesheet" href="./style/style.css" />
+
+  <!-- bootstrap css  -->
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- fontawesome cdn -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.0/jquery-ui.css" />
+
+  <!-- jqyery cdn  -->
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+  <link rel="stylesheet" href="./style/custom.css" />
+
+  <!-- input search dropdown  -->
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <!-- header start -->
+
+  <div class="MainHeader StaticHeader">
+
+    <div class="TopHeader">
+
+      <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+        literature from 45 BC, making it over 2000 years old</p>
+
+    </div>
+
+    <nav class="navbar navbar-expand-lg">
+
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+          <span class="navbar-toggler-icon"></span>
+
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+            <li class="nav-item">
+
+              <a class="nav-link Notification" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <img src="assets/notiico.svg" /> <span class="TotalNoti">210</span> </a>
+
+            </li>
+
+            <li class="nav-item dropdown">
+
+              <a class="nav-link IconHelp dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> <img src="assets/helpico.svg" /> NEED HELP </a>
+
+              <ul class="dropdown-menu">
+
+                <li><a class="dropdown-item" href="#">Category</a></li>
+
+                <li><a class="dropdown-item" href="#">Location</a></li>
+
+                <li><a class="dropdown-item" href="#">Department</a></li>
+
+              </ul>
+
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+
+    </nav>
+
+  </div>
+
+  <!-- header end  -->
+
+  <!-- body start  -->
+
+  <main id="InnerPage">
+
+    <div class="DashBoardWrap">
+
+      <div class="VerticleMenuWrap">
+
+        <div class="SideNaveOpen"><span style="font-size: 30px; cursor: pointer;" onClick="openNav()">&#9776;</span>
+        </div>
+
+        <div id="mySidenav" class="sidenavm">
+
+          <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+
+          <div class="MenuBoxSec">
+
+            <div class="UserWrap">
+
+              <img src="assets/user.png" />
+
+              <h4 class="UserName">Test 1</h4>
+
+            </div>
+
+            <div class="MenuVer">
+
+              <div class="sidenav">
+
+                <ul class="MenuBar">
+
+                  <li>
+
+                    <a href="#"><img src="assets/homeIcon.svg" class="IconLeft" />Dashboard</a>
+
+                  </li>
+
+                  <li>
+
+                    <button class="dropdown-btn"><img src="assets/tender.svg" class="IconLeft" />Tender Information <img
+                        src="assets/arrowDown.svg" class="ArrowRight" /></button>
+
+                    <div class="dropdown-container"><a href="#">Bids/Tender Info</a> <a href="#">Tender Listing</a> <a
+                        href="#">Bids Result</a></div>
+
+                  </li>
+
+                  <li class="Active">
+
+                    <button class="dropdown-btn active"><img src="assets/BusinessLis.svg" class="IconLeft" />Tender
+                      Submission <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+                    <div class="dropdown-container" style="display: block;"><a href="#" class="Act">Tender Submission
+                        Report</a> <a href="#">Vendor Listing</a></div>
+
+                  </li>
+
+                  <li class="">
+
+                    <button class="dropdown-btn"><img src="assets/BusinessLis.svg" class="IconLeft" />Business Listing
+                      <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+                    <div class="dropdown-container"><a href="#">Information</a> <a href="#">Category , Product & Service
+                        Listing</a> <a href="#" class="">Event</a></div>
+
+                  </li>
+
+                  <li>
+
+                    <button class="dropdown-btn"><img src="assets/admindesk.svg" class="IconLeft" />Admin Desk <img
+                        src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+                    <div class="dropdown-container"><a href="#">Admin Desk</a> <a href="#">Admin Desk</a> <a
+                        href="#">Admin Desk</a></div>
+
+                  </li>
+
+                  <li>
+
+                    <button class="dropdown-btn"><img src="assets/videolib.svg" class="IconLeft" />Video’s Library <img
+                        src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+                    <div class="dropdown-container"><a href="#">Video’s Library</a> <a href="#">Video’s Library</a> <a
+                        href="#">Video’s Library</a></div>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="DashBoardContent SubmissionBox">
+
+        <!-- <div class="TopTwoTabs">
+
+            <div class="TabMenuTop">
+
+              <p class="eventlinksfilter active" onClick="EventTab(event, 'IndianTender')">Indian Tender</p>
+
+              <p class="eventlinksfilter" onClick="EventTab(event, 'TenderResults')">Tender Results</p>
+
+            </div>
+
+          </div> -->
+
+        <!-- <div id="IndianTender" class="eventcontentfilter" style="display: block;"> </div>-->
+
+        <div class="TopFilterBox">
+
+          <div class="TabMenu">
+
+            <p class="tablinksfilter active" onClick="FilterTab(event, 'All')">All</p>
+
+            <p class="tablinksfilter" onClick="FilterTab(event, 'MyRegistered')">My Registered</p>
+
+            <p class="tablinksfilter" onClick="FilterTab(event, 'Awarded')">Awarded <span class="PosSet">10</span></p>
+
+            <p class="tablinksfilter" onClick="FilterTab(event, 'Submitted')">Submitted <span class="PosSet">10</span>
+            </p>
+
+            <p class="tablinksfilter" onClick="FilterTab(event, 'Disqulify')">Disqulify</p>
+
+            <p class="tablinksfilter" onClick="FilterTab(event, 'Rejected')">Rejected <span class="PosSet">10</span></p>
+
+          </div>
+
+          <div class="BidDate">
+
+            <form>
+
+              <div class="date-container">
+
+                <input id="date" type="text" />
+
+                <span class="date-text">Bid Date</span> <i class="date-icon fa fa-calendar" aria-hidden="true"></i>
+
+              </div>
+
+            </form>
+
+          </div>
+
+          <div class="ClearBtnBox"><a href="#" class="ClearBtnn">Clear all</a></div>
+
+        </div>
+
+        <div class="SearchBoxSubmission">
+
+          <form>
+
+            <div class="FormWrap">
+
+              <div class="FormControl">
+
+                <input type="text" id="searchfield" placeholder="Search For Tenders i.e " />
+
+                <button class="BtnSubmit"><img src="assets/imgsec.svg" /></button>
+
+              </div>
+
+              <div class="FormControl">
+
+                <input type="text" id="ntidoptions" placeholder="Search By NTID" />
+
+                <button class="BtnSubmit"><img src="assets/imgsec.svg" /></button>
+
+              </div>
+
+              <div class="FormControl">
+
+                <input type="text" id="orgoption" placeholder="Select an Organization" />
+
+                <button class="BtnSubmit"><img src="assets/imgsec.svg" /></button>
+
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+
+        <div id="All" class="tabcontentfilter" style="display: block; padding-left: 30px;">
+
+          <div class="SubmissionListBox awdtender">
+
+            <div class="TopBox">
+
+              <div class="LeftWrap">
+
+                <p class="BtnDesign">NTID 24542923</p>
+
+                <p class="BtnDesign">ID: 33318</p>
+
+                <p class="BtnDesign">Bidding ID: 33318</p>
+
+              </div>
+
+              <div class="RightWrap">
+
+                <p>Organization : National Thermal Power Corporation Limited</p>
+
+              </div>
+
+            </div>
+
+            <div class="MiddleBox">
+
+              <div class="Headings">
+
+                <p class="Left">Supply Of Drinking Water Cooler - As Per Is 1475</p>
+
+                <p class="Right"><i class="fa-solid fa-location-dot"></i> Nagpur, Maharashtra ,India</p>
+
+              </div>
+
+              <p class="Qul"><b>Result Remark</b> : Qualified</p>
+
+              <ul class="ListIcon">
+
+                <li><i class="fa-solid fa-calendar"></i> Published Date : 12-05-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Closing Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Client Bidding Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Last Day : 00-00-0000</li>
+
+              </ul>
+
+              <div class="ProcessingSteps">
+
+                <div class="Left">
+
+                  <ol>
+
+                    <li class="">Inprocess</li>
+
+                    <li class="">Send Summary</li>
+
+                    <li class="">Success</li>
+
+                    <li class="current">Result Upload</li>
+
+                  </ol>
+
+                </div>
+
+                <div class="Right">
+
+                  <ul class="BtnRight">
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si1.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si2.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si3.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si4.svg" /></a>
+
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="BottomBox">
+
+              <div class="LoadMoreBtnBox">
+
+                <p class="LoadMoreBtn"><span class="Load">Load More</span> <span class="Less">Read Less</span> <i
+                    class="fa-solid fa-chevron-down"></i></p>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Bid Report</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Client Remark</th>
+
+                        <th class="Border">Admin Remark</th>
+
+                        <th>Client Bidding Date</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>--</td>
+
+                        <td class="Border">Tender Bid Successful</td>
+
+                        <td>24-05-21</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Our Item Rate</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Item Name</th>
+
+                        <th class="Border">Quantity</th>
+
+                        <th>Unit</th>
+
+                        <th class="Border">Rate per unit</th>
+
+                        <th>GST</th>
+
+                        <th class="Border">Total Rate</th>
+
+                        <th>Packaging</th>
+
+                        <th class="BorderLeft">Transport</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>Supply Of Drinking Water Cooler - As Per Is 1475</td>
+
+                        <td class="Border">4</td>
+
+                        <td>Nos</td>
+
+                        <td class="Border">125000</td>
+
+                        <td>0</td>
+
+                        <td class="Border">500000.00</td>
+
+                        <td>0</td>
+
+                        <td class="BorderLeft">0</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                  <div class="BottomTable">
+
+                    <ul class="List">
+
+                      <li><b>State:</b> Gujarat</li>
+
+                      <li><b>City:</b> Surat</li>
+
+                      <li><b>Remarks:</b> Submitted</li>
+
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="SubmissionListBox sbttender">
+
+            <div class="TopBox">
+
+              <div class="LeftWrap">
+
+                <p class="BtnDesign">NTID 24542923</p>
+
+                <p class="BtnDesign">ID: 33318</p>
+
+                <p class="BtnDesign">Bidding ID: 33318</p>
+
+              </div>
+
+              <div class="RightWrap">
+
+                <p>Organization : National Thermal Power Corporation Limited</p>
+
+              </div>
+
+            </div>
+
+            <div class="MiddleBox">
+
+              <div class="Headings">
+
+                <p class="Left">Supply Of Drinking Water Cooler - As Per Is 1475</p>
+
+                <p class="Right"><i class="fa-solid fa-location-dot"></i> Nagpur, Maharashtra ,India</p>
+
+              </div>
+
+              <p class="Qul"><b>Result Remark</b> : Qualified</p>
+
+              <ul class="ListIcon">
+
+                <li><i class="fa-solid fa-calendar"></i> Published Date : 12-05-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Closing Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Client Bidding Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Last Day : 00-00-0000</li>
+
+              </ul>
+
+              <div class="ProcessingSteps">
+
+                <div class="Left">
+
+                  <ol>
+
+                    <li class="">Inprocess</li>
+
+                    <li class="">Send Summary</li>
+
+                    <li class="">Success</li>
+
+                    <li class="current">Result Upload</li>
+
+                  </ol>
+
+                </div>
+
+                <div class="Right">
+
+                  <ul class="BtnRight">
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si1.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si2.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si3.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si4.svg" /></a>
+
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="BottomBox">
+
+              <div class="LoadMoreBtnBox">
+
+                <p class="LoadMoreBtn"><span class="Load">Load More</span> <span class="Less">Read Less</span> <i
+                    class="fa-solid fa-chevron-down"></i></p>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Bid Report</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Client Remark</th>
+
+                        <th class="Border">Admin Remark</th>
+
+                        <th>Client Bidding Date</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>--</td>
+
+                        <td class="Border">Tender Bid Successful</td>
+
+                        <td>24-05-21</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Our Item Rate</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Item Name</th>
+
+                        <th class="Border">Quantity</th>
+
+                        <th>Unit</th>
+
+                        <th class="Border">Rate per unit</th>
+
+                        <th>GST</th>
+
+                        <th class="Border">Total Rate</th>
+
+                        <th>Packaging</th>
+
+                        <th class="BorderLeft">Transport</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>Supply Of Drinking Water Cooler - As Per Is 1475</td>
+
+                        <td class="Border">4</td>
+
+                        <td>Nos</td>
+
+                        <td class="Border">125000</td>
+
+                        <td>0</td>
+
+                        <td class="Border">500000.00</td>
+
+                        <td>0</td>
+
+                        <td class="BorderLeft">0</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                  <div class="BottomTable">
+
+                    <ul class="List">
+
+                      <li><b>State:</b> Gujarat</li>
+
+                      <li><b>City:</b> Surat</li>
+
+                      <li><b>Remarks:</b> Submitted</li>
+
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="SubmissionListBox rjdtender">
+
+            <div class="TopBox">
+
+              <div class="LeftWrap">
+
+                <p class="BtnDesign">NTID 24542923</p>
+
+                <p class="BtnDesign">ID: 33318</p>
+
+                <p class="BtnDesign">Bidding ID: 33318</p>
+
+              </div>
+
+              <div class="RightWrap">
+
+                <p>Organization : National Thermal Power Corporation Limited</p>
+
+              </div>
+
+            </div>
+
+            <div class="MiddleBox">
+
+              <div class="Headings">
+
+                <p class="Left">Supply Of Drinking Water Cooler - As Per Is 1475</p>
+
+                <p class="Right"><i class="fa-solid fa-location-dot"></i> Nagpur, Maharashtra ,India</p>
+
+              </div>
+
+              <p class="Qul"><b>Result Remark</b> : Qualified</p>
+
+              <ul class="ListIcon">
+
+                <li><i class="fa-solid fa-calendar"></i> Published Date : 12-05-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Closing Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Client Bidding Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Last Day : 00-00-0000</li>
+
+              </ul>
+
+              <div class="ProcessingSteps">
+
+                <div class="Left">
+
+                  <ol>
+
+                    <li class="">Inprocess</li>
+
+                    <li class="">Send Summary</li>
+
+                    <li class="">Success</li>
+
+                    <li class="current">Result Upload</li>
+
+                  </ol>
+
+                </div>
+
+                <div class="Right">
+
+                  <ul class="BtnRight">
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si1.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si2.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si3.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si4.svg" /></a>
+
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="BottomBox">
+
+              <div class="LoadMoreBtnBox">
+
+                <p class="LoadMoreBtn"><span class="Load">Load More</span> <span class="Less">Read Less</span> <i
+                    class="fa-solid fa-chevron-down"></i></p>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Bid Report</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Client Remark</th>
+
+                        <th class="Border">Admin Remark</th>
+
+                        <th>Client Bidding Date</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>--</td>
+
+                        <td class="Border">Tender Bid Successful</td>
+
+                        <td>24-05-21</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Our Item Rate</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Item Name</th>
+
+                        <th class="Border">Quantity</th>
+
+                        <th>Unit</th>
+
+                        <th class="Border">Rate per unit</th>
+
+                        <th>GST</th>
+
+                        <th class="Border">Total Rate</th>
+
+                        <th>Packaging</th>
+
+                        <th class="BorderLeft">Transport</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>Supply Of Drinking Water Cooler - As Per Is 1475</td>
+
+                        <td class="Border">4</td>
+
+                        <td>Nos</td>
+
+                        <td class="Border">125000</td>
+
+                        <td>0</td>
+
+                        <td class="Border">500000.00</td>
+
+                        <td>0</td>
+
+                        <td class="BorderLeft">0</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                  <div class="BottomTable">
+
+                    <ul class="List">
+
+                      <li><b>State:</b> Gujarat</li>
+
+                      <li><b>City:</b> Surat</li>
+
+                      <li><b>Remarks:</b> Submitted</li>
+
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="SubmissionListBox dsqtender">
+
+            <div class="TopBox">
+
+              <div class="LeftWrap">
+
+                <p class="BtnDesign">NTID 24542923</p>
+
+                <p class="BtnDesign">ID: 33318</p>
+
+                <p class="BtnDesign">Bidding ID: 33318</p>
+
+              </div>
+
+              <div class="RightWrap">
+
+                <p>Organization : National Thermal Power Corporation Limited</p>
+
+              </div>
+
+            </div>
+
+            <div class="MiddleBox">
+
+              <div class="Headings">
+
+                <p class="Left">Supply Of Drinking Water Cooler - As Per Is 1475</p>
+
+                <p class="Right"><i class="fa-solid fa-location-dot"></i> Nagpur, Maharashtra ,India</p>
+
+              </div>
+
+              <p class="Qul"><b>Result Remark</b> : Qualified</p>
+
+              <ul class="ListIcon">
+
+                <li><i class="fa-solid fa-calendar"></i> Published Date : 12-05-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Closing Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Client Bidding Date : 10-06-2021</li>
+
+                <li><i class="fa-solid fa-calendar"></i> Last Day : 00-00-0000</li>
+
+              </ul>
+
+              <div class="ProcessingSteps">
+
+                <div class="Left">
+
+                  <ol>
+
+                    <li class="">Inprocess</li>
+
+                    <li class="">Send Summary</li>
+
+                    <li class="">Success</li>
+
+                    <li class="current">Result Upload</li>
+
+                  </ol>
+
+                </div>
+
+                <div class="Right">
+
+                  <ul class="BtnRight">
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si1.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si2.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si3.svg" /></a>
+
+                    </li>
+
+                    <li>
+
+                      <a href="#" class="Btn"><img src="assets/si4.svg" /></a>
+
+                    </li>
+
+                  </ul>
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="BottomBox">
+
+              <div class="LoadMoreBtnBox">
+
+                <p class="LoadMoreBtn"><span class="Load">Load More</span> <span class="Less">Read Less</span> <i
+                    class="fa-solid fa-chevron-down"></i></p>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Bid Report</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Client Remark</th>
+
+                        <th class="Border">Admin Remark</th>
+
+                        <th>Client Bidding Date</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>--</td>
+
+                        <td class="Border">Tender Bid Successful</td>
+
+                        <td>24-05-21</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                </div>
+
+              </div>
+
+              <div class="TableBoxSub">
+
+                <h4>Our Item Rate</h4>
+
+                <div class="TableRes">
+
+                  <table>
+
+                    <thead>
+
+                      <tr>
+
+                        <th>Item Name</th>
+
+                        <th class="Border">Quantity</th>
+
+                        <th>Unit</th>
+
+                        <th class="Border">Rate per unit</th>
+
+                        <th>GST</th>
+
+                        <th class="Border">Total Rate</th>
+
+                        <th>Packaging</th>
+
+                        <th class="BorderLeft">Transport</th>
+
+                      </tr>
+
+                    </thead>
+
+                    <tbody>
+
+                      <tr>
+
+                        <td>Supply Of Drinking Water Cooler - As Per Is 1475</td>
+
+                        <td class="Border">4</td>
+
+                        <td>Nos</td>
+
+                        <td class="Border">125000</td>
+
+                        <td>0</td>
+
+                        <td class="Border">500000.00</td>
+
+                        <td>0</td>
+
+                        <td class="BorderLeft">0</td>
+
+                      </tr>
+
+                    </tbody>
+
+                  </table>
+
+                  <div class="BottomTable">
+
+                    <ul class="List">
+
+                      <li><b>State:</b> Gujarat</li>
+
+                      <li><b>City:</b> Surat</li>
+
+                      <li><b>Remarks:</b> Submitted</li>
+
+                    </ul>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+        <div id="MyRegistered" class="tabcontentfilter">There is no My Registered record</div>
+
+        <div id="Awarded" class="tabcontentfilter">There is no Awarded record</div>
+
+        <div id="Submitted" class="tabcontentfilter">There is no Submitted record</div>
+
+        <div id="Disqulify" class="tabcontentfilter">There is no Disqulify record</div>
+
+        <div id="Rejected" class="tabcontentfilter">There is no Rejected record</div>
+
+
+
+        <!-- <div id="TenderResults" class="eventcontentfilter">There is no Tender Results record</div>
+
+        </div> -->
+
+      </div>
+
+  </main>
+
+  <!-- body end -->
+
+  <!-- footer start -->
+
+  <footer class="footer">
+
+    <div class="container-fluid">
+
+      <div class="footer-box footer-box1">
+
+        <div class="footer-title">
+
+          <h3>TENDER BY CATEGORIES</h3>
+
+          <a href="#" class="view">View All</a>
+
+        </div>
+
+        <ul class="link-box">
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-box footer-box2">
+
+        <div class="footer-title">
+
+          <h3>TENDER BY STATES</h3>
+
+          <a href="#" class="view">View All</a>
+
+        </div>
+
+        <ul class="link-box">
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-box footer-box3">
+
+        <div class="footer-title">
+
+          <h3>TENDER BY AUTHORITIES</h3>
+
+          <a href="#" class="view">View All</a>
+
+        </div>
+
+        <ul class="link-box">
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-last-box">
+
+        <div class="row footer-quick">
+
+          <div class="col">
+
+            <div class="footer-title">
+
+              <h3>QUICK LINKS</h3>
+
+            </div>
+
+            <ul class="quickLinks">
+
+              <li><a href="#" class="quicklink">Event</a></li>
+
+              <li><a href="#" class="quicklink">Pay Online</a></li>
+
+              <li><a href="#" class="quicklink">Career</a></li>
+
+              <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+
+              <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+
+              <li><a href="#" class="quicklink">Blogs</a></li>
+
+              <li><a href="#" class="quicklink">Achievements</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col">
+
+            <div class="footer-title">
+
+              <h3>OUR ALL SERVICES</h3>
+
+            </div>
+
+            <ul class="quickLinks">
+
+              <li><a href="#" class="quicklink">GeM</a></li>
+
+              <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+
+              <li><a href="#" class="quicklink">Tender Information</a></li>
+
+              <li><a href="#" class="quicklink">Tender Results</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="footer-title">
+
+              <h3>VIDEO GALLERY</h3>
+
+              <a href="#" class="view">View All</a>
+
+            </div>
+
+            <ul class="quickLinks">
+
+              <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+
+              <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+
+              <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+
+              <li><a href="#" class="quicklink">Government Tender Information</a></li>
+
+              <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+
+              <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+
+            </ul>
+
+          </div>
+
+          <div class="col-lg-3">
+
+            <div class="contact-link">
+
+              <div class="cont-icon-box">
+
+                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+
+                <p>
+
+                  Sales: +91 7383 93 4054 <br />
+
+                  Care: +91 7383 93 1002
+
+                </p>
+
+              </div>
+
+              <div class="cont-icon-box">
+
+                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+
+                <p>Info@Nationaltenders.In</p>
+
+              </div>
+
+              <div class="social-icon-box">
+
+                <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+                <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+
+                <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+
+                <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <div class="copyright-bar">
+
+    <div class="container-fluid">
+
+      <div class="copy-bar">
+
+        <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+
+        <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- footer end -->
+
+  <!-- bootstrap js  -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- script js -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+
+  <script src="./script/app.js"></script>
+
+  <script src="./script/custom.js"></script>
+
+</body>
+
+</html>

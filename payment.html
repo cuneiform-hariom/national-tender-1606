@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> 
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment - National Tenders</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- jqyery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./style/custom.css" />
+  </head>
+  <body>
+    <!-- login box start -->
+    <div class="LoginWrap loginBox">
+      <div class="loginBoxInner">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="login-left">
+              <h3>Let’s Get Started</h3>
+              <div class="login-form">
+                <form action="">
+                  <div>
+                    <label for="mobile">Mobile Number</label><br />
+                    <input type="tel" name="mobile" id="mobile" placeholder="+91-9876543210" required />
+                  </div>
+                  <div>
+                    <label for="otp">OTP</label><br />
+                    <input type="number" name="otp" id="otp" required /><br />
+                    <a href="#">Resend OTP</a>
+                  </div>
+                  <div class="acceptence">
+                    <input type="checkbox" id="check1" name="check1" value="whatsapp" required />
+                    <label for="check1"> By signing in, you agree with our Terms of Use.</label>
+                  </div>
+                  <div>
+                    <button type="submit">Submit OTP</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="login-points">
+              <img src="./assets/logo.png" alt="logo" />
+              <div class="login-icon-box">
+                <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                <div class="list">
+                  <h3>Where can I get some?</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+                </div>
+              </div>
+              <div class="login-icon-box">
+                <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                <div class="list">
+                  <h3>Where can I get some?</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+                </div>
+              </div>
+              <div class="login-icon-box">
+                <i class="fa-solid fa-magnifying-glass-dollar"></i>
+                <div class="list">
+                  <h3>Where can I get some?</h3>
+                  <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Enim fuga at, repellendus ipsam alias ratione.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button id="close"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+    </div>
+    <!-- login box end -->
+    <!-- header start -->
+    <div class="MainHeader">
+      <div class="TopHeader">
+        <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Search tenders by </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Category</a></li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Department</a></li>
+                </ul>
+              </li>
+              <li class="nav-item"><a class="nav-link" href="#">Tender Submissions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#">Pricing Plans</a></li>
+              <li class="nav-item">
+                <a class="nav-link icon-link" href="#"><i class="fa-solid fa-phone"></i></a>
+              </li>
+              <li class="nav-item"><p class="nav-link" id="login" style="margin: 0; cursor: pointer;">Login</p></li>
+            </ul>
+            <a href="#" class="nav-btn">START FREE TRIAL</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- header end  -->
+    <!-- body start  -->
+    <main id="InnerPage">
+      <div class="EventPage">
+        <div class="Breadcom">
+          <div class="container-fluid">
+            <ul class="List">
+              <li><a href="#">Home </a></li>
+              <li class="Space">&gt;</li>
+              <li class="activeB">Payment</li>
+            </ul>
+          </div>
+        </div>
+        <div class="container">
+          <div class="PaymentWrapMainPage">
+            <div class="DashBoardContent ResultPage">
+              <div class="PayWrapBox">
+                <div class="LeftWrapPay">
+                  <div class="ResultBoxWrap FormSection">
+                    <div class="HeadingBox">Add Product & Product Category</div>
+                    <div class="ContentBox">
+                      <div class="PaymentTopWrap">
+                        <ul class="ListTop">
+                          <li><i class="fa-solid fa-circle-check"></i> <strong>TENDER NO :</strong> 28110600</li>
+                          <li><i class="fa-solid fa-circle-check"></i> <strong>TENDER AUTHORITY :</strong> Supply Of Drinking Water Cooler</li>
+                          <li><i class="fa-solid fa-circle-check"></i> <strong>LOCATION :</strong> Nagpur, Maharashtra, India</li>
+                        </ul>
+                      </div>
+                      <h3 class="HeadingPay">Billing Details</h3>
+                      <form name="" method="" action="">
+                        <div class="FormWrapBox">
+                          <div class="FormControl W50">
+                            <label class="Label">Client Name</label>
+                            <input type="text" placeholder="Name" required class="Input" />
+                          </div>
+                          <div class="FormControl W50">
+                            <label class="Label">Company Name</label>
+                            <input type="text" required placeholder="Company Name" class="Input" />
+                          </div>
+                          <div class="FormControl">
+                            <label class="Label">Email</label>
+                            <input type="text" required placeholder="Email" class="Input" />
+                          </div>
+
+                          <div class="FormControl W50">
+                            <label class="Label">State (For GST)</label>
+                            <select class="Input SelectBox" style="background: url(assets/selectboxbg.svg) #fff;">
+                              <option>State</option>
+                              <option>State (For GST)</option>
+                              <option>State (For GST) </option>
+                              <option>State (For GST)</option>
+                              <option>State (For GST)</option>
+                              <option>State (For GST)</option>
+                              <option>State (For GST)</option>
+                            </select>
+                          </div>
+
+                          <div class="FormControl W50">
+                            <label class="Label"> GST No.</label>
+                            <input type="text" placeholder="GST No." required class="Input" />
+                          </div>
+
+                          <div class="FormControl Buttons">
+                            <button type="submit" class="SubmitBtn w-100 Btn">PAY 200</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+                <div class="RightWrapPay">
+                  <div class="ResultBoxWrap FormSection">
+                    <div class="HeadingBox">Order Details</div>
+                    <div class="ContentBox">
+                      <div class="ListPay">
+                        <div class="ListBox">
+                          <h3>Plan Price <span>(Inclusive of 18% GST)</span></h3>
+                          <p>₹ 200.00</p>
+                        </div>
+                        <div class="ListBox">
+                          <h3>Total Price</h3>
+                          <p>₹ 200.00</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ResultBoxWrap FormSection">
+                    <div class="HeadingBox">Coupon Code</div>
+                    <div class="ContentBox">
+                      <div class="CouponCode">
+                        <form action="" method="" name="">
+                          <div class="FormWrapBox">
+                            <div class="FormControl">
+                              <input type="text" required="" class="Input" placeholder="Enter Coupon Code" />
+                            </div>
+                            <div class="FormControl Buttons">
+                              <button type="submit" class="SubmitBtn Btn">Apply</button>
+                            </div>
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="ResultBoxWrap payNowSepBtn FormSection">
+                    <div class="">
+                      <form name="" method="" action="">
+                        <div class="FormWrapBox">
+                          <div class="FormControl Buttons">
+                            <button type="submit" class="SubmitBtn w-100 Btn">PAY 200</button>
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- body end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-box footer-box1">
+          <div class="footer-title">
+            <h3>TENDER BY CATEGORIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box2">
+          <div class="footer-title">
+            <h3>TENDER BY STATES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box3">
+          <div class="footer-title">
+            <h3>TENDER BY AUTHORITIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-last-box">
+          <div class="row footer-quick">
+            <div class="col">
+              <div class="footer-title">
+                <h3>QUICK LINKS</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Event</a></li>
+                <li><a href="#" class="quicklink">Pay Online</a></li>
+                <li><a href="#" class="quicklink">Career</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+                <li><a href="#" class="quicklink">Blogs</a></li>
+                <li><a href="#" class="quicklink">Achievements</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <div class="footer-title">
+                <h3>OUR ALL SERVICES</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">GeM</a></li>
+                <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+                <li><a href="#" class="quicklink">Tender Information</a></li>
+                <li><a href="#" class="quicklink">Tender Results</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-title">
+                <h3>VIDEO GALLERY</h3>
+                <a href="#" class="view">View All</a>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+                <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+                <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+                <li><a href="#" class="quicklink">Government Tender Information</a></li>
+                <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+                <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <div class="contact-link">
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                  <p>
+                    Sales: +91 7383 93 4054 <br />
+                    Care: +91 7383 93 1002
+                  </p>
+                </div>
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <p>Info@Nationaltenders.In</p>
+                </div>
+                <div class="social-icon-box">
+                  <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-bar">
+      <div class="container-fluid">
+        <div class="copy-bar">
+          <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+          <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="./script/app.js"></script>
+    <script src="./script/custom.js"></script>
+  </body>
+</html>

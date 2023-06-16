@@ -1,0 +1,12266 @@
+<!DOCTYPE html>
+
+
+
+<html lang="en">
+
+
+
+<head>
+
+
+
+  <meta charset="UTF-8" />
+
+
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+
+
+  <title>Bid/Tender Info - National Tenders</title>
+
+
+
+  <!-- link css -->
+
+
+
+  <link rel="stylesheet" href="./style/style.css" />
+
+
+
+  <!-- bootstrap css  -->
+
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+
+
+
+  <!-- fontawesome cdn -->
+
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+
+
+  <!-- jqyery cdn  -->
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+
+
+  <link rel="stylesheet" href="./style/custom.css" />
+
+
+  <!-- input search dropdown  -->
+
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/resources/demos/style.css">
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+
+
+</head>
+
+
+
+<body>
+
+
+
+  <!-- header start -->
+
+
+
+  <div class="MainHeader StaticHeader">
+
+
+
+    <div class="TopHeader">
+
+
+
+      <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin
+
+        literature from 45 BC, making it over 2000 years old</p>
+
+
+
+    </div>
+
+
+
+    <nav class="navbar navbar-expand-lg">
+
+
+
+      <div class="container-fluid">
+
+
+
+        <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+
+
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+
+
+          <span class="navbar-toggler-icon"></span>
+
+
+
+        </button>
+
+
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
+
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+
+
+            <li class="nav-item">
+
+
+
+              <a class="nav-link Notification" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+
+                <img src="assets/notiico.svg" /> <span class="TotalNoti">210</span> </a>
+
+
+
+            </li>
+
+
+
+            <li class="nav-item dropdown">
+
+
+
+              <a class="nav-link IconHelp dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false"> <img src="assets/helpico.svg" /> NEED HELP </a>
+
+
+
+              <ul class="dropdown-menu">
+
+
+
+                <li><a class="dropdown-item" href="#">Category</a></li>
+
+
+
+                <li><a class="dropdown-item" href="#">Location</a></li>
+
+
+
+                <li><a class="dropdown-item" href="#">Department</a></li>
+
+
+
+              </ul>
+
+
+
+            </li>
+
+
+
+          </ul>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </nav>
+
+
+
+  </div>
+
+
+
+  <!-- header end  -->
+
+
+
+  <!-- body start  -->
+
+
+
+  <main id="InnerPage">
+
+
+
+    <div class="DashBoardWrap">
+
+
+
+      <div class="VerticleMenuWrap">
+
+
+
+        <div class="SideNaveOpen"><span style="font-size: 30px; cursor: pointer;" onClick="openNav()">&#9776;</span>
+
+        </div>
+
+
+
+        <div id="mySidenav" class="sidenavm">
+
+
+
+          <a href="javascript:void(0)" class="closebtn" onClick="closeNav()">&times;</a>
+
+
+
+          <div class="MenuBoxSec">
+
+
+
+            <div class="UserWrap">
+
+
+
+              <img src="assets/user.png" />
+
+
+
+              <h4 class="UserName">Test 1</h4>
+
+
+
+            </div>
+
+
+
+            <div class="MenuVer">
+
+
+
+              <div class="sidenav">
+
+
+
+                <ul class="MenuBar">
+
+
+
+                  <li>
+
+
+
+                    <a href="#"><img src="assets/homeIcon.svg" class="IconLeft" />Dashboard</a>
+
+
+
+                  </li>
+
+
+
+                  <li class="Active">
+
+
+
+                    <button class="dropdown-btn active"><img src="assets/tender.svg" class="IconLeft" />Tender
+
+                      Information <img src="assets/arrowDown.svg" class="ArrowRight" /></button>
+
+
+
+                    <div class="dropdown-container" style="display: block;"><a href="#" class="Act">Bids/Tender Info</a>
+
+                      <a href="#">Tender Listing</a> <a href="#">Bids Result</a>
+
+                    </div>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#"><img src="assets/teSub.svg" class="IconLeft" />Tender Submission </a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <button class="dropdown-btn"><img src="assets/BusinessLis.svg" class="IconLeft" />Business Listing
+
+                      <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+
+
+                    <div class="dropdown-container"><a href="#">Business Listing</a> <a href="#">Business Listing</a> <a
+                        href="#">Business Listing</a></div>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <button class="dropdown-btn"><img src="assets/admindesk.svg" class="IconLeft" />Admin Desk <img
+                        src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+
+
+                    <div class="dropdown-container"><a href="#">Admin Desk</a> <a href="#">Admin Desk</a> <a
+                        href="#">Admin Desk</a></div>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <button class="dropdown-btn"><img src="assets/videolib.svg" class="IconLeft" />Video’s Library <img
+                        src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+
+
+
+                    <div class="dropdown-container"><a href="#">Video’s Library</a> <a href="#">Video’s Library</a> <a
+                        href="#">Video’s Library</a></div>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+
+
+      <!-- Save Filter Popup -->
+
+
+
+      <div class="SaveFilterPopUpBox">
+
+
+
+        <div class="PopUpContentBox">
+
+
+
+          <div class="HeaderBoxSection">
+
+
+
+            <h5>Save Filter</h5>
+
+
+
+            <div class="CloPoBtn">
+
+
+
+              <i class="fa-solid fa-xmark"></i>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="dropdown">
+
+
+
+            <div class="">
+
+
+
+              <div class="PosSetBg">
+
+
+
+                <div class="MyPreferenceBox">
+
+
+
+                  <div class="CreateNewFilterWrap">
+
+
+
+                    <div class="accordion" id="myAccordion">
+
+
+
+                      <div class="accordion-item">
+
+
+
+                        <h2 class="accordion-header" id="headingOne">
+
+
+
+                          <button type="button" class="accordion-button collapsed" data-bs-toggle="collapse"
+                            data-bs-target="#CreateNewFilter">Create New Filter</button>
+
+
+
+                        </h2>
+
+
+
+                        <div id="CreateNewFilter" class="accordion-collapse collapse" data-bs-parent="#myAccordion">
+
+
+
+                          <div class="card-body">
+
+
+
+                            <div class="FormWrapBox">
+
+
+
+                              <label>New Filter Name</label>
+
+
+
+                              <div class="InputBox">
+
+
+
+                                <input type="text" name="" placeholder="Enter New FIlter Name" />
+
+
+
+                                <button type="submit">Create</button>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="SelectFieldShow">
+
+
+
+                              <p class="Headingb">Adding New Filters (6)</p>
+
+
+
+                              <ul class="ValueList">
+
+
+
+                                <li class="ValueListItem">Security Guards <span>Keyword</span> <i
+                                    class="fa-solid fa-xmark"></i></li>
+
+
+
+                                <li class="ValueListItem">Public Works Department <span>Authority</span><i
+                                    class="fa-solid fa-xmark"></i></li>
+
+
+
+                                <li class="ValueListItem">Aerospace and Defence <span>Category</span><i
+                                    class="fa-solid fa-xmark"></i></li>
+
+
+
+                                <li class="ValueListItem">Gujarat <span>State</span><i class="fa-solid fa-xmark"></i>
+
+                                </li>
+
+
+
+                                <li class="ValueListItem">Rajkot <span>City</span><i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                <li class="ValueListItem">₹ 1 K - ₹ 5 Lac <span>Tender Amount</span><i
+                                    class="fa-solid fa-xmark"></i></li>
+
+
+
+                              </ul>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+
+
+
+
+                  <div class="accordian-box">
+
+
+
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+
+                      <div class="accordion-item">
+
+
+
+                        <div class="HeaderAccordian">
+
+
+
+                          <div class="accordion-header" id="flush-headingOne">
+
+
+
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseOne1" aria-expanded="false"
+                              aria-controls="flush-collapseOne1">
+
+
+
+                              <div class="InputBox">
+
+
+
+                                <input type="radio" name="mypreference" id="pref" />
+
+
+
+                                <label for="pref">My Preference <span>Add filters to get notifications
+
+                                    alert</span></label>
+
+
+
+                              </div>
+
+
+
+                              <div class="BtnTxt">
+
+
+
+                                <span class="Edit">Edit</span>
+
+
+
+                                <span class="CloseAcc">Close</span>
+
+
+
+                              </div>
+
+
+
+                            </button>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                        <div class="ContentAccordians">
+
+
+
+                          <div id="flush-collapseOne1" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+
+
+
+                            <div class="accordion-body">
+
+
+
+                              <div class="TopBoxMyFilter">
+
+
+
+                                <div class="TopCont">
+
+
+
+                                  <button type="reset" class="ResetBtn Btn">Reset Filter</button>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#KeywordPre" aria-expanded="true" aria-controls="KeywordPre">
+
+
+
+                                        <h6>Keyword (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="KeywordPre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Security Guards <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#AuthorityPre" aria-expanded="true"
+                                        aria-controls="AuthorityPre">
+
+
+
+                                        <h6>Authority (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="AuthorityPre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Public Works Department <i
+                                              class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#CategoryPre" aria-expanded="true" aria-controls="CategoryPre">
+
+
+
+                                        <h6>Category (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="CategoryPre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                          </li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#StatePre" aria-expanded="true" aria-controls="StatePre">
+
+
+
+                                        <h6>State (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="StatePre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#CityPre" aria-expanded="true" aria-controls="CityPre">
+
+
+
+                                        <h6>City (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="CityPre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Rajkot <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#TenderAmtPre" aria-expanded="true"
+                                        aria-controls="TenderAmtPre">
+
+
+
+                                        <h6>Tender Amount</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="TenderAmtPre" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">₹ 1 K - ₹ 5 Lac <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="accordion-item">
+
+
+
+                        <div class="HeaderAccordian">
+
+
+
+                          <div class="accordion-header" id="flush-headingTwo">
+
+
+
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                              data-bs-target="#flush-collapseTwo2" aria-expanded="false"
+                              aria-controls="flush-collapseTwo2">
+
+
+
+                              <div class="InputBox">
+
+
+
+                                <input type="radio" name="mypreference" id="filtername" />
+
+
+
+                                <label for="filtername">test</label>
+
+
+
+                              </div>
+
+
+
+                              <div class="BtnTxt">
+
+
+
+                                <span class="Edit">Edit</span>
+
+
+
+                                <span class="CloseAcc">Close</span>
+
+
+
+                              </div>
+
+
+
+                            </button>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                        <div class="ContentAccordians">
+
+
+
+                          <div id="flush-collapseTwo2" class="accordion-collapse collapse"
+                            aria-labelledby="flush-collapseTwo" data-bs-parent="#accordionFlushExample">
+
+
+
+                            <div class="accordion-body">
+
+
+
+                              <div class="TopBoxMyFilter">
+
+
+
+                                <div class="TopCont">
+
+
+
+                                  <h4>Filter Name</h4>
+
+
+
+                                  <button type="reset" class="ResetBtn Btn">Delete Filter</button>
+
+
+
+                                </div>
+
+
+
+                                <div class="InputBot">
+
+
+
+                                  <input type="text" value="test" />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#KeywordPre1" aria-expanded="true" aria-controls="KeywordPre1">
+
+
+
+                                        <h6>Keyword (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="KeywordPre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Security Guards <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#AuthorityPre1" aria-expanded="true"
+                                        aria-controls="AuthorityPre1">
+
+
+
+                                        <h6>Authority (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="AuthorityPre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Public Works Department <i
+                                              class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#CategoryPre1" aria-expanded="true"
+                                        aria-controls="CategoryPre1">
+
+
+
+                                        <h6>Category (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="CategoryPre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                          </li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#StatePre1" aria-expanded="true" aria-controls="StatePre1">
+
+
+
+                                        <h6>State (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="StatePre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#CityPre1" aria-expanded="true" aria-controls="CityPre1">
+
+
+
+                                        <h6>City (1)</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="CityPre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">Rajkot <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+
+
+
+
+                              <div class="CheckBoxSelectedValue">
+
+
+
+                                <div class="accordion" id="accordionExample">
+
+
+
+                                  <div class="accordion-item">
+
+
+
+                                    <h2 class="accordion-header">
+
+
+
+                                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#TenderAmtPre1" aria-expanded="true"
+                                        aria-controls="TenderAmtPre1">
+
+
+
+                                        <h6>Tender Amount</h6>
+
+
+
+                                      </button>
+
+
+
+                                    </h2>
+
+
+
+                                    <div id="TenderAmtPre1" class="accordion-collapse collapse show"
+                                      data-bs-parent="#accordionExample">
+
+
+
+                                      <div class="">
+
+
+
+                                        <ul class="ListWrapDrop">
+
+
+
+                                          <li class="BtnAddList">₹ 1 K - ₹ 5 Lac <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                        </ul>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+                <div class="applyBtnGrp">
+
+
+
+                  <button type="submit">Save Filter</button>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+      <!-- end save filter popup -->
+
+
+
+
+
+
+
+      <div class="DashBoardContent FilterBoxContent InfoBoxInnerTabs">
+
+
+
+        <div class="FilterBox">
+
+
+
+          <div class="ClearBtn"><a href="#" class="Clear"> Reset Filter </a></div>
+
+
+
+          <div class="TopTwoTabs">
+
+
+
+            <div class="TabMenuTop">
+
+
+
+              <p class="eventlinksfilter active" onClick="EventTab(event, 'IndianTender')">Indian Tender</p>
+
+
+
+              <p class="eventlinksfilter" onClick="EventTab(event, 'TenderResults')">Tender Results</p>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="ApplyFilterWrap">
+
+
+
+            <div class="SelectBox">
+
+
+
+
+
+
+
+              <div class="dropdown ShowMobile">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">My Preference</button>
+
+
+
+                <div class="dropdown-menu MyPreferanceDrop search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>My Preference</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+
+
+
+
+                    <div class="MyPreferenceBox">
+
+
+
+                      <div class="accordian-box">
+
+
+
+                        <div class="accordion accordion-flush" id="accordionFlushExample">
+
+
+
+                          <div class="accordion-item">
+
+
+
+                            <div class="HeaderAccordian">
+
+
+
+                              <div class="accordion-header" id="flush-headingOne">
+
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                  aria-controls="flush-collapseOne">
+
+
+
+                                  <div class="InputBox">
+
+
+
+                                    <input type="radio" name="mypreference" id="pref1" />
+
+
+
+                                    <label for="pref1">My Preference <span>Add filters to get notifications
+
+                                        alert</span></label>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="BtnTxt">
+
+
+
+                                    <span class="Edit">Edit</span>
+
+
+
+                                    <span class="CloseAcc">Close</span>
+
+
+
+                                  </div>
+
+
+
+                                </button>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="ContentAccordians">
+
+
+
+                              <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <div class="TopBoxMyFilter">
+
+
+
+                                    <div class="TopCont">
+
+
+
+                                      <button type="reset" class="ResetBtn Btn">Reset Filter</button>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#KeywordPre" aria-expanded="true"
+                                            aria-controls="KeywordPre">
+
+
+
+                                            <h6>Keyword (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="KeywordPre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Security Guards <i class="fa-solid fa-xmark"></i>
+
+                                              </li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#AuthorityPre" aria-expanded="true"
+                                            aria-controls="AuthorityPre">
+
+
+
+                                            <h6>Authority (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="AuthorityPre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Public Works Department <i
+                                                  class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#CategoryPre" aria-expanded="true"
+                                            aria-controls="CategoryPre">
+
+
+
+                                            <h6>Category (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="CategoryPre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Aerospace and Defence <i
+                                                  class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#StatePre" aria-expanded="true" aria-controls="StatePre">
+
+
+
+                                            <h6>State (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="StatePre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#CityPre" aria-expanded="true" aria-controls="CityPre">
+
+
+
+                                            <h6>City (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="CityPre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Rajkot <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#TenderAmtPre" aria-expanded="true"
+                                            aria-controls="TenderAmtPre">
+
+
+
+                                            <h6>Tender Amount</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="TenderAmtPre" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">₹ 1 K - ₹ 5 Lac <i class="fa-solid fa-xmark"></i>
+
+                                              </li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                          <div class="accordion-item">
+
+
+
+                            <div class="HeaderAccordian">
+
+
+
+                              <div class="accordion-header" id="flush-headingTwo">
+
+
+
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                  aria-controls="flush-collapseTwo">
+
+
+
+                                  <div class="InputBox">
+
+
+
+                                    <input type="radio" name="mypreference" id="filtername1" />
+
+
+
+                                    <label for="filtername1">test</label>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="BtnTxt">
+
+
+
+                                    <span class="Edit">Edit</span>
+
+
+
+                                    <span class="CloseAcc">Close</span>
+
+
+
+                                  </div>
+
+
+
+                                </button>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="ContentAccordians">
+
+
+
+                              <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                aria-labelledby="flush-collapseTwo" data-bs-parent="#accordionFlushExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <div class="TopBoxMyFilter">
+
+
+
+                                    <div class="TopCont">
+
+
+
+                                      <h4>Filter Name</h4>
+
+
+
+                                      <button type="reset" class="ResetBtn Btn">Delete Filter</button>
+
+
+
+                                    </div>
+
+
+
+                                    <div class="InputBot">
+
+
+
+                                      <input type="text" value="test" />
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#KeywordPre1" aria-expanded="true"
+                                            aria-controls="KeywordPre1">
+
+
+
+                                            <h6>Keyword (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="KeywordPre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Security Guards <i class="fa-solid fa-xmark"></i>
+
+                                              </li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#AuthorityPre1" aria-expanded="true"
+                                            aria-controls="AuthorityPre1">
+
+
+
+                                            <h6>Authority (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="AuthorityPre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Public Works Department <i
+                                                  class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#CategoryPre1" aria-expanded="true"
+                                            aria-controls="CategoryPre1">
+
+
+
+                                            <h6>Category (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="CategoryPre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Aerospace and Defence <i
+                                                  class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#StatePre1" aria-expanded="true" aria-controls="StatePre1">
+
+
+
+                                            <h6>State (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="StatePre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#CityPre1" aria-expanded="true" aria-controls="CityPre1">
+
+
+
+                                            <h6>City (1)</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="CityPre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">Rajkot <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+
+
+
+
+                                  <div class="CheckBoxSelectedValue">
+
+
+
+                                    <div class="accordion" id="accordionExample">
+
+
+
+                                      <div class="accordion-item">
+
+
+
+                                        <h2 class="accordion-header">
+
+
+
+                                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#TenderAmtPre1" aria-expanded="true"
+                                            aria-controls="TenderAmtPre1">
+
+
+
+                                            <h6>Tender Amount</h6>
+
+
+
+                                          </button>
+
+
+
+                                        </h2>
+
+
+
+                                        <div id="TenderAmtPre1" class="accordion-collapse collapse show"
+                                          data-bs-parent="#accordionExample">
+
+
+
+                                          <div class="">
+
+
+
+                                            <ul class="ListWrapDrop">
+
+
+
+                                              <li class="BtnAddList">₹ 1 K - ₹ 5 Lac <i class="fa-solid fa-xmark"></i>
+
+                                              </li>
+
+
+
+                                            </ul>
+
+
+
+                                          </div>
+
+
+
+                                        </div>
+
+
+
+                                      </div>
+
+
+
+                                    </div>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                    </div>
+
+
+
+                    <div class="applyBtnGrp">
+
+
+
+                      <button type="submit">Apply Filter</button>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">Category</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>Category</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="SearchBoxDropTop">
+
+
+
+                          <div class="input-group">
+
+
+
+                            <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                            <input type="text" class="form-control" placeholder="Search Category" aria-label=""
+                              aria-describedby="" />
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxSelectedValue">
+
+
+
+                          <div class="accordion" id="accordionExample">
+
+
+
+                            <div class="accordion-item">
+
+
+
+                              <h2 class="accordion-header">
+
+
+
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#SelectedCategories" aria-expanded="true"
+                                  aria-controls="SelectedCategories">
+
+
+
+                                  <h6>Selected Categories (1)</h6>
+
+
+
+                                </button>
+
+
+
+                              </h2>
+
+
+
+                              <div id="SelectedCategories" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <ul class="ListWrapDrop">
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                  </ul>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxWrapPop">
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c1" />
+
+
+
+                            <label class="form-check-label" for="c1">
+
+
+
+                              Aerospace and Defence
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c2" />
+
+
+
+                            <label class="form-check-label" for="c2">
+
+
+
+                              Agriculture or Forestry Works
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c3" />
+
+
+
+                            <label class="form-check-label" for="c3">
+
+
+
+                              Auction
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c4" />
+
+
+
+                            <label class="form-check-label" for="c4">
+
+
+
+                              Automobiles and Auto Parts
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c5" />
+
+
+
+                            <label class="form-check-label" for="c5">
+
+
+
+                              Banking
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c6" />
+
+
+
+                            <label class="form-check-label" for="c6">
+
+
+
+                              Civil And Construction
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c7" />
+
+
+
+                            <label class="form-check-label" for="c7">
+
+
+
+                              Chemical Products
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c8" />
+
+
+
+                            <label class="form-check-label" for="c8">
+
+
+
+                              Consultancy Services
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="c9" />
+
+
+
+                            <label class="form-check-label" for="c9">
+
+
+
+                              Education And Training Services
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">Keyword</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>Keyword</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="SearchBoxDropTop">
+
+
+
+                          <div class="input-group">
+
+
+
+                            <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                            <input type="text" class="form-control" placeholder="Type keyword eg-civil, cable etc."
+                              aria-label="" aria-describedby="" />
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxSelectedValue">
+
+
+
+                          <div class="accordion" id="accordionExample">
+
+
+
+                            <div class="accordion-item">
+
+
+
+                              <h2 class="accordion-header">
+
+
+
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#SelectedKeyword" aria-expanded="true"
+                                  aria-controls="SelectedKeyword">
+
+
+
+                                  <h6>Selected Keyword (1)</h6>
+
+
+
+                                </button>
+
+
+
+                              </h2>
+
+
+
+                              <div id="SelectedKeyword" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <ul class="ListWrapDrop">
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                  </ul>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxWrapPop row">
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k1" />
+
+
+
+                            <label class="form-check-label" for="k1">
+
+
+
+                              Aerospace and Defence
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k2" />
+
+
+
+                            <label class="form-check-label" for="k2">
+
+
+
+                              Agriculture or Forestry Works
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k3" />
+
+
+
+                            <label class="form-check-label" for="k3">
+
+
+
+                              Auction
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k4" />
+
+
+
+                            <label class="form-check-label" for="k4">
+
+
+
+                              Automobiles and Auto Parts
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k5" />
+
+
+
+                            <label class="form-check-label" for="k5">
+
+
+
+                              Banking
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k6" />
+
+
+
+                            <label class="form-check-label" for="k6">
+
+
+
+                              Civil And Construction
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k7" />
+
+
+
+                            <label class="form-check-label" for="k7">
+
+
+
+                              Chemical Products
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k8" />
+
+
+
+                            <label class="form-check-label" for="k8">
+
+
+
+                              Consultancy Services
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="k9" />
+
+
+
+                            <label class="form-check-label" for="k9">
+
+
+
+                              Education And Training Services
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">Department</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>Department</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="SearchBoxDropTop">
+
+
+
+                          <div class="input-group">
+
+
+
+                            <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                            <input type="text" class="form-control" placeholder="Department Search" aria-label=""
+                              aria-describedby="" />
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxSelectedValue">
+
+
+
+                          <div class="accordion" id="accordionExample">
+
+
+
+                            <div class="accordion-item">
+
+
+
+                              <h2 class="accordion-header">
+
+
+
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#SelectedDepartment" aria-expanded="true"
+                                  aria-controls="SelectedDepartment">
+
+
+
+                                  <h6>Selected Department (1)</h6>
+
+
+
+                                </button>
+
+
+
+                              </h2>
+
+
+
+                              <div id="SelectedDepartment" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <ul class="ListWrapDrop">
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                  </ul>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxWrapPop row">
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="d1" />
+
+
+
+                            <label class="form-check-label" for="d1">
+
+
+
+                              Aerospace and Defence
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="d2" />
+
+
+
+                            <label class="form-check-label" for="d2">
+
+
+
+                              Agriculture or Forestry Works
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="d3" />
+
+
+
+                            <label class="form-check-label" for="d3">
+
+
+
+                              Auction
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="d4" />
+
+
+
+                            <label class="form-check-label" for="d4">
+
+
+
+                              Automobiles and Auto Parts
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">State</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>State</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="SearchBoxDropTop">
+
+
+
+                          <div class="input-group">
+
+
+
+                            <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                            <input type="text" class="form-control" placeholder="Search State" aria-label=""
+                              aria-describedby="" />
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxSelectedValue">
+
+
+
+                          <div class="accordion" id="accordionExample">
+
+
+
+                            <div class="accordion-item">
+
+
+
+                              <h2 class="accordion-header">
+
+
+
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#SelectedState" aria-expanded="true" aria-controls="SelectedState">
+
+
+
+                                  <h6>Selected State (1)</h6>
+
+
+
+                                </button>
+
+
+
+                              </h2>
+
+
+
+                              <div id="SelectedState" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <ul class="ListWrapDrop">
+
+
+
+                                    <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                  </ul>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxWrapPop row">
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s1" />
+
+
+
+                            <label class="form-check-label" for="s1">
+
+
+
+                              Gujarat
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">City</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>City</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="SearchBoxDropTop">
+
+
+
+                          <div class="input-group">
+
+
+
+                            <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                            <input type="text" class="form-control" placeholder="Search City" aria-label=""
+                              aria-describedby="" />
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxSelectedValue">
+
+
+
+                          <div class="accordion" id="accordionExample">
+
+
+
+                            <div class="accordion-item">
+
+
+
+                              <h2 class="accordion-header">
+
+
+
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                  data-bs-target="#SelectedCity" aria-expanded="true" aria-controls="SelectedCity">
+
+
+
+                                  <h6>Selected City (1)</h6>
+
+
+
+                                </button>
+
+
+
+                              </h2>
+
+
+
+                              <div id="SelectedCity" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+
+
+
+                                <div class="accordion-body">
+
+
+
+                                  <ul class="ListWrapDrop">
+
+
+
+                                    <li class="BtnAddList">Ahmedabad <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                  </ul>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+
+
+
+
+                        <div class="CheckBoxWrapPop row">
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="ci1" />
+
+
+
+                            <label class="form-check-label" for="ci1">
+
+
+
+                              Ahmedabad
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s2" />
+
+
+
+                            <label class="form-check-label" for="s2">
+
+
+
+                              Ahwa
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s3" />
+
+
+
+                            <label class="form-check-label" for="s3">
+
+
+
+                              Ambaji
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s4" />
+
+
+
+                            <label class="form-check-label" for="s4">
+
+
+
+                              Amod
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s5" />
+
+
+
+                            <label class="form-check-label" for="s5">
+
+
+
+                              Amreli
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s6" />
+
+
+
+                            <label class="form-check-label" for="s6">
+
+
+
+                              Anand-Guj
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s7" />
+
+
+
+                            <label class="form-check-label" for="s7">
+
+
+
+                              Anjar
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s8" />
+
+
+
+                            <label class="form-check-label" for="s8">
+
+
+
+                              Ankleshwar
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s9" />
+
+
+
+                            <label class="form-check-label" for="s9">
+
+
+
+                              Babra
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s10" />
+
+
+
+                            <label class="form-check-label" for="s10">
+
+
+
+                              Bagasara
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s11" />
+
+
+
+                            <label class="form-check-label" for="s11">
+
+
+
+                              Balasinor
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="s12" />
+
+
+
+                            <label class="form-check-label" for="s12">
+
+
+
+                              Banaskantha
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">Amount</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>Amount</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="CheckBoxWrapPop Amount">
+
+
+
+                          <div class="form-row">
+
+
+
+                            <div class="col-md-6">
+
+
+
+                              <label for="validationTooltipUsername">Minimum Amount</label>
+
+
+
+                              <div class="input-group">
+
+
+
+                                <div class="input-group-prepend">
+
+
+
+                                  <span class="input-group-text" id="validationTooltipUsernamePrepend">₹</span>
+
+
+
+                                </div>
+
+
+
+                                <input type="text" class="form-control" id="validationTooltipUsername"
+                                  placeholder="Enter Or Select Amount"
+                                  aria-describedby="validationTooltipUsernamePrepend" required />
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="col-md-6">
+
+
+
+                              <label for="validationTooltipUsername">Maximum Amount</label>
+
+
+
+                              <div class="input-group">
+
+
+
+                                <div class="input-group-prepend">
+
+
+
+                                  <span class="input-group-text" id="validationTooltipUsernamePrepend">₹</span>
+
+
+
+                                </div>
+
+
+
+                                <input type="text" class="form-control" id="validationTooltipUsername"
+                                  placeholder="Enter Or Select Amount"
+                                  aria-describedby="validationTooltipUsernamePrepend" required />
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="form-check col-md-6">
+
+
+
+                            <input class="form-check-input" type="checkbox" value="" id="Amount" />
+
+
+
+                            <label class="form-check-label" for="Amount">
+
+
+
+                              Not Estimated Amount
+
+
+
+                            </label>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="dropdown">
+
+
+
+                <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"
+                  data-bs-auto-close="outside">More</button>
+
+
+
+                <div class="dropdown-menu search-dropdown-box">
+
+
+
+                  <div class="PosSetBg">
+
+
+
+                    <div class="DropDownFilterBoxTop">
+
+
+
+                      <h4>More</h4>
+
+
+
+                      <button class="ClsBtn" type="button"><i class="fa-solid fa-xmark"></i></button>
+
+
+
+                    </div>
+
+
+
+                    <form>
+
+
+
+                      <div class="ContentBoxFilterWrapDrop">
+
+
+
+                        <div class="CheckBoxWrapPop Amount">
+
+
+
+                          <div class="form-row">
+
+
+
+                            <div class="col-md-12 mb-2">
+
+
+
+                              <label for="">Within Search</label>
+
+
+
+                              <div class="input-group">
+
+
+
+                                <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                                <input type="text" class="form-control"
+                                  placeholder="Search For Tenders i.e : road, valve" aria-label=""
+                                  aria-describedby="" />
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="col-md-12 mb-2">
+
+
+
+                              <label for="">Publish Date</label>
+
+
+
+                              <div class="input-group">
+
+
+
+                                <span class="input-group-text" id=""><i class="fa-solid fa-calendar"></i></span>
+
+
+
+                                <input type="date" class="form-control" aria-label="" aria-describedby="" />
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                            <div class="col-md-12">
+
+
+
+                              <label for="">NTID Search</label>
+
+
+
+                              <div class="input-group">
+
+
+
+                                <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                                <input type="text" class="form-control"
+                                  placeholder="Search For NTID i.e : 26974461, 26974160" aria-label=""
+                                  aria-describedby="" />
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </div>
+
+
+
+                      <div class="BootmFooterBox">
+
+
+
+                        <button type="reset" class="Rst">Reset</button>
+
+
+
+                        <button type="submit" class="App">Apply Now</button>
+
+
+
+                      </div>
+
+
+
+                    </form>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <!-- filter for mobile -->
+
+
+
+            <div class="FilterOpenMobile"><i class="fa fa-sliders"></i> Filter</div>
+
+
+
+            <div class="FIlterMobileWrap">
+
+
+
+              <div class="TopBarBox">
+
+
+
+                <h5>Filters</h5>
+
+
+
+                <h5 class="Clo">Close</h5>
+
+
+
+              </div>
+
+
+
+
+
+
+
+              <div class="TabBoxFilter">
+
+
+
+                <div class="LeftWrap">
+
+
+
+                  <p class="eventlinksfiltern active" onClick="EventTabn(event, 'CategoryF')">Category</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'KeywordF')">Keyword</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'DepartmentF')">Department</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'StateF')">State</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'CityF')">City</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'AmountF')">Amount</p>
+
+
+
+                  <p class="eventlinksfiltern" onClick="EventTabn(event, 'MoreF')">More</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightWrap">
+
+
+
+                  <div id="CategoryF" class="eventcontentfilter" style="display: block;">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>Category</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="SearchBoxDropTop">
+
+
+
+                            <button type="button" class="ResetBtnSearch">Reset</button>
+
+
+
+                            <div class="input-group">
+
+
+
+                              <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                              <input type="text" class="form-control" placeholder="Search Category" aria-label=""
+                                aria-describedby="" />
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxSelectedValue">
+
+
+
+                            <div class="accordion" id="accordionExample">
+
+
+
+                              <div class="accordion-item">
+
+
+
+                                <h2 class="accordion-header">
+
+
+
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#SelectedCategories" aria-expanded="true"
+                                    aria-controls="SelectedCategories">
+
+
+
+                                    <h6>Selected Categories (1)</h6>
+
+
+
+                                  </button>
+
+
+
+                                </h2>
+
+
+
+                                <div id="SelectedCategories" class="accordion-collapse collapse show"
+                                  data-bs-parent="#accordionExample">
+
+
+
+                                  <div class="accordion-body">
+
+
+
+                                    <ul class="ListWrapDrop">
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+
+
+
+
+                                    </ul>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxWrapPop">
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c1" />
+
+
+
+                              <label class="form-check-label" for="c1">
+
+
+
+                                Aerospace and Defence
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c2" />
+
+
+
+                              <label class="form-check-label" for="c2">
+
+
+
+                                Agriculture or Forestry Works
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c3" />
+
+
+
+                              <label class="form-check-label" for="c3">
+
+
+
+                                Auction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c4" />
+
+
+
+                              <label class="form-check-label" for="c4">
+
+
+
+                                Automobiles and Auto Parts
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c5" />
+
+
+
+                              <label class="form-check-label" for="c5">
+
+
+
+                                Banking
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c6" />
+
+
+
+                              <label class="form-check-label" for="c6">
+
+
+
+                                Civil And Construction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c7" />
+
+
+
+                              <label class="form-check-label" for="c7">
+
+
+
+                                Chemical Products
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c8" />
+
+
+
+                              <label class="form-check-label" for="c8">
+
+
+
+                                Consultancy Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c9" />
+
+
+
+                              <label class="form-check-label" for="c9">
+
+
+
+                                Education And Training Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c1" />
+
+
+
+                              <label class="form-check-label" for="c1">
+
+
+
+                                Aerospace and Defence
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c2" />
+
+
+
+                              <label class="form-check-label" for="c2">
+
+
+
+                                Agriculture or Forestry Works
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c3" />
+
+
+
+                              <label class="form-check-label" for="c3">
+
+
+
+                                Auction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c4" />
+
+
+
+                              <label class="form-check-label" for="c4">
+
+
+
+                                Automobiles and Auto Parts
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c5" />
+
+
+
+                              <label class="form-check-label" for="c5">
+
+
+
+                                Banking
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c6" />
+
+
+
+                              <label class="form-check-label" for="c6">
+
+
+
+                                Civil And Construction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c7" />
+
+
+
+                              <label class="form-check-label" for="c7">
+
+
+
+                                Chemical Products
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c8" />
+
+
+
+                              <label class="form-check-label" for="c8">
+
+
+
+                                Consultancy Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c9" />
+
+
+
+                              <label class="form-check-label" for="c9">
+
+
+
+                                Education And Training Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c1" />
+
+
+
+                              <label class="form-check-label" for="c1">
+
+
+
+                                Aerospace and Defence
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c2" />
+
+
+
+                              <label class="form-check-label" for="c2">
+
+
+
+                                Agriculture or Forestry Works
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c3" />
+
+
+
+                              <label class="form-check-label" for="c3">
+
+
+
+                                Auction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c4" />
+
+
+
+                              <label class="form-check-label" for="c4">
+
+
+
+                                Automobiles and Auto Parts
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c5" />
+
+
+
+                              <label class="form-check-label" for="c5">
+
+
+
+                                Banking
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c6" />
+
+
+
+                              <label class="form-check-label" for="c6">
+
+
+
+                                Civil And Construction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c7" />
+
+
+
+                              <label class="form-check-label" for="c7">
+
+
+
+                                Chemical Products
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c8" />
+
+
+
+                              <label class="form-check-label" for="c8">
+
+
+
+                                Consultancy Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="c9" />
+
+
+
+                              <label class="form-check-label" for="c9">
+
+
+
+                                Education And Training Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="KeywordF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>Keyword</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="SearchBoxDropTop">
+
+
+
+                            <button type="button" class="ResetBtnSearch">Reset</button>
+
+
+
+                            <div class="input-group">
+
+
+
+                              <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                              <input type="text" class="form-control" placeholder="Type keyword eg-civil, cable etc."
+                                aria-label="" aria-describedby="" />
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxSelectedValue">
+
+
+
+                            <div class="accordion" id="accordionExample">
+
+
+
+                              <div class="accordion-item">
+
+
+
+                                <h2 class="accordion-header">
+
+
+
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#SelectedKeyword" aria-expanded="true"
+                                    aria-controls="SelectedKeyword">
+
+
+
+                                    <h6>Selected Keyword (1)</h6>
+
+
+
+                                  </button>
+
+
+
+                                </h2>
+
+
+
+                                <div id="SelectedKeyword" class="accordion-collapse collapse show"
+                                  data-bs-parent="#accordionExample">
+
+
+
+                                  <div class="accordion-body">
+
+
+
+                                    <ul class="ListWrapDrop">
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                    </ul>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxWrapPop row">
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k1" />
+
+
+
+                              <label class="form-check-label" for="k1">
+
+
+
+                                Aerospace and Defence
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k2" />
+
+
+
+                              <label class="form-check-label" for="k2">
+
+
+
+                                Agriculture or Forestry Works
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k3" />
+
+
+
+                              <label class="form-check-label" for="k3">
+
+
+
+                                Auction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k4" />
+
+
+
+                              <label class="form-check-label" for="k4">
+
+
+
+                                Automobiles and Auto Parts
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k5" />
+
+
+
+                              <label class="form-check-label" for="k5">
+
+
+
+                                Banking
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k6" />
+
+
+
+                              <label class="form-check-label" for="k6">
+
+
+
+                                Civil And Construction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k7" />
+
+
+
+                              <label class="form-check-label" for="k7">
+
+
+
+                                Chemical Products
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k8" />
+
+
+
+                              <label class="form-check-label" for="k8">
+
+
+
+                                Consultancy Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="k9" />
+
+
+
+                              <label class="form-check-label" for="k9">
+
+
+
+                                Education And Training Services
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="DepartmentF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>Department</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="SearchBoxDropTop">
+
+
+
+                            <button type="button" class="ResetBtnSearch">Reset</button>
+
+
+
+                            <div class="input-group">
+
+
+
+                              <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                              <input type="text" class="form-control" placeholder="Department Search" aria-label=""
+                                aria-describedby="" />
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxSelectedValue">
+
+
+
+                            <div class="accordion" id="accordionExample">
+
+
+
+                              <div class="accordion-item">
+
+
+
+                                <h2 class="accordion-header">
+
+
+
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#SelectedDepartment" aria-expanded="true"
+                                    aria-controls="SelectedDepartment">
+
+
+
+                                    <h6>Selected Department (1)</h6>
+
+
+
+                                  </button>
+
+
+
+                                </h2>
+
+
+
+                                <div id="SelectedDepartment" class="accordion-collapse collapse show"
+                                  data-bs-parent="#accordionExample">
+
+
+
+                                  <div class="accordion-body">
+
+
+
+                                    <ul class="ListWrapDrop">
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                      <li class="BtnAddList">Aerospace and Defence <i class="fa-solid fa-xmark"></i>
+
+                                      </li>
+
+
+
+                                    </ul>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxWrapPop row">
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="d1" />
+
+
+
+                              <label class="form-check-label" for="d1">
+
+
+
+                                Aerospace and Defence
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="d2" />
+
+
+
+                              <label class="form-check-label" for="d2">
+
+
+
+                                Agriculture or Forestry Works
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="d3" />
+
+
+
+                              <label class="form-check-label" for="d3">
+
+
+
+                                Auction
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="d4" />
+
+
+
+                              <label class="form-check-label" for="d4">
+
+
+
+                                Automobiles and Auto Parts
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="StateF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>State</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="SearchBoxDropTop">
+
+
+
+                            <button type="button" class="ResetBtnSearch">Reset</button>
+
+
+
+                            <div class="input-group">
+
+
+
+                              <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                              <input type="text" class="form-control" placeholder="Search State" aria-label=""
+                                aria-describedby="" />
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxSelectedValue">
+
+
+
+                            <div class="accordion" id="accordionExample">
+
+
+
+                              <div class="accordion-item">
+
+
+
+                                <h2 class="accordion-header">
+
+
+
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#SelectedState" aria-expanded="true" aria-controls="SelectedState">
+
+
+
+                                    <h6>Selected State (1)</h6>
+
+
+
+                                  </button>
+
+
+
+                                </h2>
+
+
+
+                                <div id="SelectedState" class="accordion-collapse collapse show"
+                                  data-bs-parent="#accordionExample">
+
+
+
+                                  <div class="accordion-body">
+
+
+
+                                    <ul class="ListWrapDrop">
+
+
+
+                                      <li class="BtnAddList">Gujarat <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    </ul>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxWrapPop row">
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s1" />
+
+
+
+                              <label class="form-check-label" for="s1">
+
+
+
+                                Gujarat
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="CityF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>City</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="SearchBoxDropTop">
+
+
+
+                            <button type="button" class="ResetBtnSearch">Reset</button>
+
+
+
+                            <div class="input-group">
+
+
+
+                              <span class="input-group-text" id=""><i class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                              <input type="text" class="form-control" placeholder="Search City" aria-label=""
+                                aria-describedby="" />
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxSelectedValue">
+
+
+
+                            <div class="accordion" id="accordionExample">
+
+
+
+                              <div class="accordion-item">
+
+
+
+                                <h2 class="accordion-header">
+
+
+
+                                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#SelectedCity" aria-expanded="true" aria-controls="SelectedCity">
+
+
+
+                                    <h6>Selected City (1)</h6>
+
+
+
+                                  </button>
+
+
+
+                                </h2>
+
+
+
+                                <div id="SelectedCity" class="accordion-collapse collapse show"
+                                  data-bs-parent="#accordionExample">
+
+
+
+                                  <div class="accordion-body">
+
+
+
+                                    <ul class="ListWrapDrop">
+
+
+
+                                      <li class="BtnAddList">Ahmedabad <i class="fa-solid fa-xmark"></i></li>
+
+
+
+                                    </ul>
+
+
+
+                                  </div>
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+
+
+
+
+                          <div class="CheckBoxWrapPop row">
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="ci1" />
+
+
+
+                              <label class="form-check-label" for="ci1">
+
+
+
+                                Ahmedabad
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s2" />
+
+
+
+                              <label class="form-check-label" for="s2">
+
+
+
+                                Ahwa
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s3" />
+
+
+
+                              <label class="form-check-label" for="s3">
+
+
+
+                                Ambaji
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s4" />
+
+
+
+                              <label class="form-check-label" for="s4">
+
+
+
+                                Amod
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s5" />
+
+
+
+                              <label class="form-check-label" for="s5">
+
+
+
+                                Amreli
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s6" />
+
+
+
+                              <label class="form-check-label" for="s6">
+
+
+
+                                Anand-Guj
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s7" />
+
+
+
+                              <label class="form-check-label" for="s7">
+
+
+
+                                Anjar
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s8" />
+
+
+
+                              <label class="form-check-label" for="s8">
+
+
+
+                                Ankleshwar
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s9" />
+
+
+
+                              <label class="form-check-label" for="s9">
+
+
+
+                                Babra
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s10" />
+
+
+
+                              <label class="form-check-label" for="s10">
+
+
+
+                                Bagasara
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s11" />
+
+
+
+                              <label class="form-check-label" for="s11">
+
+
+
+                                Balasinor
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="s12" />
+
+
+
+                              <label class="form-check-label" for="s12">
+
+
+
+                                Banaskantha
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="AmountF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>Amount</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="CheckBoxWrapPop Amount">
+
+
+
+                            <div class="form-row">
+
+
+
+                              <div class="col-md-6">
+
+
+
+                                <label for="validationTooltipUsername">Minimum Amount</label>
+
+
+
+                                <div class="input-group">
+
+
+
+                                  <div class="input-group-prepend">
+
+
+
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">₹</span>
+
+
+
+                                  </div>
+
+
+
+                                  <input type="text" class="form-control" id="validationTooltipUsername"
+                                    placeholder="Enter Or Select Amount"
+                                    aria-describedby="validationTooltipUsernamePrepend" required />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="col-md-6">
+
+
+
+                                <label for="validationTooltipUsername">Maximum Amount</label>
+
+
+
+                                <div class="input-group">
+
+
+
+                                  <div class="input-group-prepend">
+
+
+
+                                    <span class="input-group-text" id="validationTooltipUsernamePrepend">₹</span>
+
+
+
+                                  </div>
+
+
+
+                                  <input type="text" class="form-control" id="validationTooltipUsername"
+                                    placeholder="Enter Or Select Amount"
+                                    aria-describedby="validationTooltipUsernamePrepend" required />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+
+
+
+
+                            <div class="form-check col-md-6">
+
+
+
+                              <input class="form-check-input" type="checkbox" value="" id="Amount" />
+
+
+
+                              <label class="form-check-label" for="Amount">
+
+
+
+                                Not Estimated Amount
+
+
+
+                              </label>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                  <div id="MoreF" class="eventcontentfilter">
+
+
+
+                    <div class="PosSetBg">
+
+
+
+                      <div class="DropDownFilterBoxTop">
+
+
+
+                        <h4>More</h4>
+
+
+
+                      </div>
+
+
+
+                      <form>
+
+
+
+                        <div class="ContentBoxFilterWrapDrop">
+
+
+
+                          <div class="CheckBoxWrapPop Amount">
+
+
+
+                            <div class="form-row">
+
+
+
+                              <div class="col-md-12 mb-2">
+
+
+
+                                <label for="">Within Search</label>
+
+
+
+                                <div class="input-group">
+
+
+
+                                  <span class="input-group-text" id=""><i
+                                      class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                                  <input type="text" class="form-control"
+                                    placeholder="Search For Tenders i.e : road, valve" aria-label=""
+                                    aria-describedby="" />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="col-md-12 mb-2">
+
+
+
+                                <label for="">Publish Date</label>
+
+
+
+                                <div class="input-group">
+
+
+
+                                  <span class="input-group-text" id=""><i class="fa-solid fa-calendar"></i></span>
+
+
+
+                                  <input type="date" class="form-control" aria-label="" aria-describedby="" />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                              <div class="col-md-12">
+
+
+
+                                <label for="">NTID Search</label>
+
+
+
+                                <div class="input-group">
+
+
+
+                                  <span class="input-group-text" id=""><i
+                                      class="fa-solid fa-magnifying-glass"></i></span>
+
+
+
+                                  <input type="text" class="form-control"
+                                    placeholder="Search For NTID i.e : 26974461, 26974160" aria-label=""
+                                    aria-describedby="" />
+
+
+
+                                </div>
+
+
+
+                              </div>
+
+
+
+                            </div>
+
+
+
+                          </div>
+
+
+
+                        </div>
+
+
+
+                      </form>
+
+
+
+                    </div>
+
+
+
+                  </div>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <div class="FilterBootmBtnFix">
+
+
+
+                <button type="reset" class="Rst">Clear</button>
+
+
+
+                <button type="submit" class="App">Apply Now</button>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <!-- end filter -->
+
+
+
+            <div class="ApplyBtn">
+
+
+
+              <button type="button" class="Btn"><img src="assets/applyFIlter.svg" /> Save Filters</button>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="SerachBox">
+
+
+
+            <div class="BtnSearch">
+
+
+
+              <p class="tablinksfilter active" onClick="FilterTab(event, 'Live')"><img src="assets/live.svg" /> Live
+
+                <span>(88)</span>
+
+              </p>
+
+
+
+              <p class="tablinksfilter" onClick="FilterTab(event, 'Fresh')"><img src="assets/fre.svg" /> Fresh
+
+                <span>(70)</span>
+
+              </p>
+
+
+
+              <p class="tablinksfilter" onClick="FilterTab(event, 'Favourite')"><img src="assets/favr.svg" /> Favourite
+
+                <span>(20)</span>
+
+              </p>
+
+
+
+              <div class="ArchToggle">
+
+
+
+                <ul class="navbar-nav">
+
+
+
+                  <li class="nav-item dropdown">
+
+
+
+                    <p class="archievebtn dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false"><img src="assets/arc.svg" /> Archieve</p>
+
+
+
+                    <ul class="dropdown-menu">
+
+
+
+                      <li><a class="dropdown-item" href="#">Archieve</a></li>
+
+
+
+                      <li><a class="dropdown-item" href="#">Archieve - 2021</a></li>
+
+
+
+                      <li><a class="dropdown-item" href="#">Archieve - 2020</a></li>
+
+
+
+                    </ul>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="SerachBoxCon">
+
+
+
+              <div class="InputBox">
+
+
+
+                <input type="text" id="searchfield" placeholder="Search" />
+
+
+
+                <button type="submit" class="SubBtn"><img src="assets/searchicon.png" /></button>
+
+
+
+              </div>
+
+
+
+              <div class="ArchToggle RangeFilter">
+
+
+
+                <ul class="navbar-nav">
+
+
+
+                  <li class="nav-item dropdown">
+
+
+
+                    <p class="BarBtn" role="button" data-bs-toggle="dropdown" aria-expanded="true"><img
+                        src="assets/barbtn.svg" /></p>
+
+
+
+                    <div class="dropdown-menu">
+
+
+
+                      <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'Relevance')">Relevance</p>
+
+
+
+                      <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'PriceHightoLow')">Price: High to Low
+
+                      </p>
+
+
+
+                      <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'PriceLowtoHigh')">Price: Low to High
+
+                      </p>
+
+
+
+                      <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'AsctoDesc')">Closing Date: Asc to
+
+                        Desc</p>
+
+
+
+                      <p class="BtnRange tablinksfilter" onClick="FilterTab(event, 'DesctoAsc')">Closing Date: Desc to
+
+                        Asc</p>
+
+
+
+                    </div>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+        <div id="IndianTender" class="eventcontentfilter" style="display: block;">
+
+
+
+          <!-- Live tab Content -->
+
+
+
+          <div id="Live" class="tabcontentfilter" style="display: block;">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Fresh tab Content -->
+
+
+
+          <div id="Fresh" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Favourite tab Content -->
+
+
+
+          <div id="Favourite" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+            <div class="LoadMoreBtnInner"><a href="#" class="LoadMore">LOAD MORE</a></div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Relevance tab Content -->
+
+
+
+          <div id="Relevance" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Price: High to Low tab Content -->
+
+
+
+          <div id="PriceHightoLow" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Price: Low to High tab Content -->
+
+
+
+          <div id="PriceLowtoHigh" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Closing Date: Asc to Desc tab Content -->
+
+
+
+          <div id="AsctoDesc" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+          <!-- Closing Date: Desc to Asc tab Content -->
+
+
+
+          <div id="DesctoAsc" class="tabcontentfilter">
+
+
+
+            <div class="DasSec BidTenInfo">
+
+
+
+              <div class="FirstSec">
+
+
+
+                <div class="LeftSide">
+
+
+
+                  <h3>Western Railway</h3>
+
+
+
+                  <p><img src="assets/loc.svg" /> Mahesana, Gujarat, India</p>
+
+
+
+                </div>
+
+
+
+                <div class="RightSide">
+
+
+
+                  <div class="stsimg">
+
+                    <img src="./assets/fre.svg" alt="">
+
+                    <img src="./assets/favr.svg" alt="">
+
+                    <img src="./assets/arc.svg" alt="">
+
+                    <img src="./assets/liveb.svg" alt="">
+
+                  </div>
+
+
+
+                  <p class="Txt">NTID 28110600</p>
+
+
+
+                  <p class="Box">20 days left</p>
+
+
+
+                </div>
+
+
+
+              </div>
+
+
+
+              <ul class="DateWrap">
+
+
+
+                <li><img src="assets/cal.svg" /> Opening Date : <span class="Green">Sat 28th Jun, 2022</span></li>
+
+
+
+                <li><img src="assets/cal.svg" /> Closing Date : <span class="Red">Sun 28th July, 2022</span></li>
+
+
+
+              </ul>
+
+
+
+
+
+
+
+              <p class="Des">Procurement Of Cyclic Steam Wellheads And X - Mass Tree And Installation Of 2 Sets Of
+
+                Wellhead And X - Mas Trees Pertaining To Sst, Mehsana Asset</p>
+
+
+
+              <div class="BotmDesKey">
+
+
+
+                <div class="KeyValue"><strong> Key Values: </strong> Document Cos: <span>0.00</span> | EMD:
+
+                  <span>0.00</span> | Estimated Cost: <span>0.00</span>
+
+                </div>
+
+
+
+                <ul class="IconBtn">
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="reqBtn">My request</a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/tenmail.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/lov.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/dow.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                  <li>
+
+
+
+                    <a href="#" class="Btn"><img src="assets/que.svg" /></a>
+
+
+
+                  </li>
+
+
+
+                </ul>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+          <!-- end -->
+
+
+
+        </div>
+
+
+
+        <div id="TenderResults" class="eventcontentfilter">
+
+
+
+          <p class="mt-4">No Result Found</p>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </main>
+
+
+
+  <!-- body end -->
+
+
+
+  <!-- footer start -->
+
+
+
+  <footer class="footer">
+
+
+
+    <div class="container-fluid">
+
+
+
+      <div class="footer-box footer-box1">
+
+
+
+        <div class="footer-title">
+
+
+
+          <h3>TENDER BY CATEGORIES</h3>
+
+
+
+          <a href="#" class="view">View All</a>
+
+
+
+        </div>
+
+
+
+        <ul class="link-box">
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+      <div class="footer-box footer-box2">
+
+
+
+        <div class="footer-title">
+
+
+
+          <h3>TENDER BY STATES</h3>
+
+
+
+          <a href="#" class="view">View All</a>
+
+
+
+        </div>
+
+
+
+        <ul class="link-box">
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+      <div class="footer-box footer-box3">
+
+
+
+        <div class="footer-title">
+
+
+
+          <h3>TENDER BY AUTHORITIES</h3>
+
+
+
+          <a href="#" class="view">View All</a>
+
+
+
+        </div>
+
+
+
+        <ul class="link-box">
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+          <li><a href="#">UttarPradesh Tenders</a></li>
+
+
+
+        </ul>
+
+
+
+      </div>
+
+
+
+      <div class="footer-last-box">
+
+
+
+        <div class="row footer-quick">
+
+
+
+          <div class="col">
+
+
+
+            <div class="footer-title">
+
+
+
+              <h3>QUICK LINKS</h3>
+
+
+
+            </div>
+
+
+
+            <ul class="quickLinks">
+
+
+
+              <li><a href="#" class="quicklink">Event</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Pay Online</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Career</a></li>
+
+
+
+              <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+
+
+
+              <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Blogs</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Achievements</a></li>
+
+
+
+            </ul>
+
+
+
+          </div>
+
+
+
+          <div class="col">
+
+
+
+            <div class="footer-title">
+
+
+
+              <h3>OUR ALL SERVICES</h3>
+
+
+
+            </div>
+
+
+
+            <ul class="quickLinks">
+
+
+
+              <li><a href="#" class="quicklink">GeM</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Tender Information</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Tender Results</a></li>
+
+
+
+            </ul>
+
+
+
+          </div>
+
+
+
+          <div class="col-lg-4">
+
+
+
+            <div class="footer-title">
+
+
+
+              <h3>VIDEO GALLERY</h3>
+
+
+
+              <a href="#" class="view">View All</a>
+
+
+
+            </div>
+
+
+
+            <ul class="quickLinks">
+
+
+
+              <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Government Tender Information</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+
+
+
+              <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+
+
+
+            </ul>
+
+
+
+          </div>
+
+
+
+          <div class="col-lg-3">
+
+
+
+            <div class="contact-link">
+
+
+
+              <div class="cont-icon-box">
+
+
+
+                <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+
+
+
+                <p>
+
+
+
+                  Sales: +91 7383 93 4054 <br />
+
+
+
+                  Care: +91 7383 93 1002
+
+
+
+                </p>
+
+
+
+              </div>
+
+
+
+              <div class="cont-icon-box">
+
+
+
+                <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+
+
+
+                <p>Info@Nationaltenders.In</p>
+
+
+
+              </div>
+
+
+
+              <div class="social-icon-box">
+
+
+
+                <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+
+
+
+                <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+
+
+
+                <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+
+
+
+                <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+
+
+
+              </div>
+
+
+
+            </div>
+
+
+
+          </div>
+
+
+
+        </div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </footer>
+
+
+
+  <div class="copyright-bar">
+
+
+
+    <div class="container-fluid">
+
+
+
+      <div class="copy-bar">
+
+
+
+        <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+
+
+
+        <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+
+
+
+      </div>
+
+
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <!-- footer end -->
+
+
+
+  <!-- bootstrap js  -->
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <!-- script js -->
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+  <!-- script js -->
+
+
+
+  <script src="./script/app.js"></script>
+
+
+
+  <script src="./script/custom.js"></script>
+
+
+
+</body>
+
+
+
+</html>

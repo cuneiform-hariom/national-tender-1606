@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - National Tenders</title>
+    <!-- link css -->
+    <link rel="stylesheet" href="./style/style.css" />
+    <!-- bootstrap css  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <!-- jqyery cdn  -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="./style/custom.css" />
+  </head>
+  <body>
+    <!-- header start -->
+    <div class="MainHeader StaticHeader">
+      <div class="TopHeader">
+        <p>*Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old</p>
+      </div>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html"> <img src="./assets/logo.png" alt="logo" /> </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link Notification" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/notiico.svg" /> <span class="TotalNoti">210</span> </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link IconHelp dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> <img src="assets/helpico.svg" /> NEED HELP </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Category</a></li>
+                  <li><a class="dropdown-item" href="#">Location</a></li>
+                  <li><a class="dropdown-item" href="#">Department</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- header end  -->
+    <!-- body start  -->
+    <main id="InnerPage">
+      <div class="DashBoardWrap">
+        <div class="VerticleMenuWrap">
+          <div class="SideNaveOpen"><span style="font-size: 30px; cursor: pointer;" onclick="openNav()">&#9776;</span></div>
+          <div id="mySidenav" class="sidenavm">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <div class="MenuBoxSec">
+              <div class="UserWrap">
+                <img src="assets/user.png" />
+                <h4 class="UserName">Test 1</h4>
+              </div>
+              <div class="MenuVer">
+                <div class="sidenav">
+                  <ul class="MenuBar">
+                    <li class="Active">
+                      <a href="#"><img src="assets/homeIcon.svg" class="IconLeft" />Dashboard</a>
+                    </li>
+                    <li>
+                      <button class="dropdown-btn"><img src="assets/tender.svg" class="IconLeft" />Tender Information <img src="assets/arrowDown.svg" class="ArrowRight" /></button>
+                      <div class="dropdown-container">
+                        <a href="#">Bids/Tender Info</a>
+                        <a href="#">Tender Listing</a>
+                        <a href="#">Bids Result</a>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#"><img src="assets/teSub.svg" class="IconLeft" />Tender Submission </a>
+                    </li>
+                    <li class="">
+                      <button class="dropdown-btn"><img src="assets/BusinessLis.svg" class="IconLeft" />Business Listing <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+                      <div class="dropdown-container"><a href="#">Information</a> <a href="#">Category , Product & Service Listing</a> <a href="#" class="">Event</a></div>
+                    </li>
+                    <li>
+                      <button class="dropdown-btn"><img src="assets/admindesk.svg" class="IconLeft" />Admin Desk <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+                      <div class="dropdown-container"><a href="#">Admin Desk</a> <a href="#">Admin Desk</a> <a href="#">Admin Desk</a></div>
+                    </li>
+                    <li>
+                      <button class="dropdown-btn"><img src="assets/videolib.svg" class="IconLeft" />Video’s Library <img src="assets/arrowDow.svg" class="ArrowRight Rotate" /></button>
+                      <div class="dropdown-container"><a href="#">Video’s Library</a> <a href="#">Video’s Library</a> <a href="#">Video’s Library</a></div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="DashBoardContent ResultPage">
+          <div class="Box_Section">
+            <div class="BoxSectionContent">
+              <div class="BoxSectionCard">
+                <img src="assets/bell.svg" />
+                <h2><span>Live:</span> Bid/Tender</h2>
+                <p>120</p>
+              </div>
+            </div>
+            <div class="BoxSectionContent">
+              <div class="BoxSectionCard">
+                <img src="assets/bell2.svg" />
+                <h2><span>Fresh:</span> Bid/Tender</h2>
+                <p>55</p>
+              </div>
+            </div>
+
+            <div class="BoxSectionContent">
+              <div class="BoxSectionCard Last">
+                <img src="assets/calender.svg" />
+                <h2>Service Expire Date</h2>
+                <p>30 Apr, 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="SecSection">
+            <div class="Wid60">
+              <div class="boxWrap">
+                <div class="HeadBox">
+                  <img src="assets/ts.svg" />
+                  <h1>Tender Submission Report</h1>
+                </div>
+                <div class="BttomBox">
+                  <ul>
+                    <li>
+                      <p>Tenders to Submit</p>
+                      <h2>121</h2>
+                    </li>
+                    <li>
+                      <p>Tenders Submitted</p>
+                      <h2>121</h2>
+                    </li>
+                    <li>
+                      <p>Total Bid Tender Amount</p>
+                      <h2>4.89 Lakh</h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="Wid40">
+              <div class="boxWrap">
+                <div class="HeadBox">
+                  <img src="assets/awa.svg" />
+                  <h1>Awarded Tenders</h1>
+                </div>
+                <div class="BttomBox">
+                  <ul>
+                    <li>
+                      <p>
+                        Total <br />
+                        Awarded
+                      </p>
+                      <h2>4</h2>
+                    </li>
+                    <li>
+                      <p>
+                        Total <br />
+                        Awarded Amount
+                      </p>
+                      <h2>121</h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="SecSection LeftCom">
+            <div class="Wid40">
+              <div class="boxWrap">
+                <div class="HeadBox">
+                  <img src="assets/vs.svg" />
+                  <h1>Vendor Registration</h1>
+                </div>
+                <div class="BttomBox">
+                  <ul>
+                    <li>
+                      <p>
+                        Total <br />
+                        Vendor
+                      </p>
+                      <h2>4</h2>
+                    </li>
+                    <li>
+                      <p>
+                        Total <br />
+                        Completed Vendor
+                      </p>
+                      <h2>2</h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="Wid60">
+              <div class="boxWrap">
+                <div class="HeadBox">
+                  <img src="assets/gems.svg" />
+                  <h1>GeM Product/Service</h1>
+                </div>
+                <div class="BttomBox">
+                  <ul class="Ul33">
+                    <li>
+                      <p>Total Product/ Service</p>
+                      <h2>110</h2>
+                    </li>
+                    <li>
+                      <p>Total Uploaded Product/Service</p>
+                      <h2>109</h2>
+                    </li>
+                    <li>
+                      <p>QCI Process</p>
+                      <h2>NO</h2>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="SupportSection">
+            <div class="LeftWrap">
+              <img src="assets/supp.svg" />
+              <h2>
+                Support Manager<br />
+                Communication Remarks
+              </h2>
+            </div>
+            <div class="RightWrap">
+              <h3>Next Follow-up On 05 Apr, 2022</h3>
+              <h5>Service Closed - Satisfactory <span>05 Apr,2022</span></h5>
+            </div>
+          </div>
+
+
+          <div class="ChartSection">
+            <h2>Monthly Tender Submission Report</h2>
+            <canvas id="areaChart" width="877" height="438"  class="chartjs-render-monitor"></canvas>
+          </div>
+
+
+          <div class="ChartSection">
+            <h2>Maximum Tenders Submitted For Department <a href="#" class="Btn">View All</a></h2>
+            <canvas id="horizontalBarChartCanvas"></canvas>
+          </div>
+
+
+          <div class="ChartSection">
+            <h2>Live Tenders As Per Best Department <a href="#" class="Btn">View All</a></h2>
+
+           <div class="PieChartBox">
+            <div class="Left W50">
+              <ul class="list">
+                <li>Paschim Gujarat Vij Company Limited</li>
+                <li>Ahmedabad Municipal Corporation</li>
+                <li>Dakshin Gujarat Vij Company Limited</li>
+                <li>Gujarat State Electricity Corporation Limited</li>
+                <li>Western Railway</li>
+              </ul>
+            </div>
+            <div class="Right W50">
+                <canvas id="pieChart" height="312" width="312" style="display: block; width: 312px; height: 312px;" class="chartjs-render-monitor"></canvas>
+            </div>
+          
+          </div>
+          </div>
+
+          <div class="LiveTenderBox">
+            <div class="LeftWrap">
+              <div class="Boxes">
+                <h5>Live Tenders As Per Top 10 Keywords</h5>
+                <div class="Content">
+                  <div class="InputBox">
+                    <form>
+                      <input type="text" placeholder="Search" required />
+                      <button type="submit" class="SubBtn"><img src="assets/searchicon.png" /></button>
+                    </form>
+                  </div>
+                  <ul class="ListWrap">
+                    <li class="Heading">
+                      <p class="Btn">Keyword</p>
+                      <p class="Btn">Count</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                    <li class="Heading">
+                      <p><a href="#">Transport</a></p>
+                      <p>63</p>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="RightWrap">
+              <div class="Boxes">
+                <h5>News Updates <a href="#" class="Btn">View All</a></h5>
+                <ul class="ListNews">
+                  <li>
+                    <h5><a href="#">This ministry is leading public procurement from MSEs in FY23 and it’s not MSME, Defence or IT ministry</a></h5>
+                    <p>Ease of Doing Business for MSMEs: Among top PSUs buying from MSEs were Indian Oil Corporation, NTPC, Steel Authority of India, Bharat Heavy Electrical...</p>
+                  </li>
+                  <li>
+                    <h5><a href="#">This ministry is leading public procurement from MSEs in FY23 and it’s not MSME, Defence or IT ministry</a></h5>
+                    <p>Ease of Doing Business for MSMEs: Among top PSUs buying from MSEs were Indian Oil Corporation, NTPC, Steel Authority of India, Bharat Heavy Electrical...</p>
+                  </li>
+                  <li>
+                    <h5><a href="#">This ministry is leading public procurement from MSEs in FY23 and it’s not MSME, Defence or IT ministry</a></h5>
+                    <p>Ease of Doing Business for MSMEs: Among top PSUs buying from MSEs were Indian Oil Corporation, NTPC, Steel Authority of India, Bharat Heavy Electrical...</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- body end -->
+    <!-- footer start -->
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="footer-box footer-box1">
+          <div class="footer-title">
+            <h3>TENDER BY CATEGORIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box2">
+          <div class="footer-title">
+            <h3>TENDER BY STATES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-box footer-box3">
+          <div class="footer-title">
+            <h3>TENDER BY AUTHORITIES</h3>
+            <a href="#" class="view">View All</a>
+          </div>
+          <ul class="link-box">
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+            <li><a href="#">UttarPradesh Tenders</a></li>
+          </ul>
+        </div>
+        <div class="footer-last-box">
+          <div class="row footer-quick">
+            <div class="col">
+              <div class="footer-title">
+                <h3>QUICK LINKS</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Event</a></li>
+                <li><a href="#" class="quicklink">Pay Online</a></li>
+                <li><a href="#" class="quicklink">Career</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding GeM</a></li>
+                <li><a href="#" class="quicklink">FAQs Regarding Tenders</a></li>
+                <li><a href="#" class="quicklink">Blogs</a></li>
+                <li><a href="#" class="quicklink">Achievements</a></li>
+              </ul>
+            </div>
+            <div class="col">
+              <div class="footer-title">
+                <h3>OUR ALL SERVICES</h3>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">GeM</a></li>
+                <li><a href="#" class="quicklink">Tender Submission Services</a></li>
+                <li><a href="#" class="quicklink">Tender Information</a></li>
+                <li><a href="#" class="quicklink">Tender Results</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-title">
+                <h3>VIDEO GALLERY</h3>
+                <a href="#" class="view">View All</a>
+              </div>
+              <ul class="quickLinks">
+                <li><a href="#" class="quicklink">Corporate Video (English)</a></li>
+                <li><a href="#" class="quicklink">Corporate Video (Hindi)</a></li>
+                <li><a href="#" class="quicklink">Grow Business With Tender Bidding</a></li>
+                <li><a href="#" class="quicklink">Government Tender Information</a></li>
+                <li><a href="#" class="quicklink">Business Opportunity In Healthcare Industry</a></li>
+                <li><a href="#" class="quicklink">Bid Tenders In Indian Railway Departments</a></li>
+              </ul>
+            </div>
+            <div class="col-lg-3">
+              <div class="contact-link">
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                  <p>
+                    Sales: +91 7383 93 4054 <br />
+                    Care: +91 7383 93 1002
+                  </p>
+                </div>
+                <div class="cont-icon-box">
+                  <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                  <p>Info@Nationaltenders.In</p>
+                </div>
+                <div class="social-icon-box">
+                  <div class="s-icon"><i class="fa-brands fa-facebook-f"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-twitter"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-linkedin-in"></i></div>
+                  <div class="s-icon"><i class="fa-brands fa-youtube"></i></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="copyright-bar">
+      <div class="container-fluid">
+        <div class="copy-bar">
+          <p>© 2013-2022 NATIONALTENDERS. ALL RIGHTS RESERVED | DEVELOPED BY Marvel Infocomm Pvt. Ltd.</p>
+          <div class="last-bar"><a href="#">Terms and conditions</a> <a href="#">Privacy policy</a></div>
+        </div>
+      </div>
+    </div>
+    <!-- footer end -->
+    <!-- bootstrap js  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- script js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+     <script src="./script/chart.min.js"></script>
+    <script src="./script/app.js"></script>
+    <script src="./script/custom.js"></script>
+    <script>
+      
+/*********************MONTHLY TENDER SUBMISSION REPORT***************************/
+
+  var areaData = {
+    labels: ['January','February','March','April'],
+    datasets: [{
+      label: '# of Votes',
+      data: [0,0,0,0],
+      backgroundColor: [
+        'rgba(255, 61, 103, 1)',
+        'rgba(5, 155, 255, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(5, 155, 255, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderColor: [
+        'rgba(255, 61, 103, 1)',
+        'rgba(5, 155, 255, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(5, 155, 255, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+      borderWidth: 2,
+      fill: true, // 3: no fill
+    }]
+  };
+
+  var areaOptions = {
+    plugins: {
+      filler: {
+        propagate: true
+      }
+
+    }
+
+  }
+  var areaOptions= {
+    scales: {
+      
+      xAxes: [{
+        ticks:{
+          fontColor : "#000",
+          fontSize : 14
+        },
+        gridLines:{
+          color: "#000",
+          lineWidth:2
+        }
+      }],
+      yAxes: [{
+        ticks:{
+          fontColor : "#000",
+          fontSize : 14
+        },
+        gridLines:{
+          color: "#000",
+          lineWidth:1
+        }
+      }]
+    },
+    responsive:true
+  }
+
+
+  if ($("#areaChart").length) {
+    var areaChartCanvas = $("#areaChart").get(0).getContext("2d");
+    var areaChart = new Chart(areaChartCanvas, {
+      type: 'line',
+      data: areaData,
+      options: areaOptions
+    });
+  }
+
+
+/*********************END MONTHLY TENDER SUBMISSION REPORT***************************/
+
+
+
+/*********************Maximum Tenders Submitted For Department***************************/
+
+Chart.defaults.global.defaultFontFamily = "Poppins";
+
+var horizontalBarChart = new Chart(horizontalBarChartCanvas, {
+  type: "horizontalBar",
+  data: {
+    labels: [
+      "Tribal Development Department",
+      "National Thermal Power Corporation",
+      "Indian Institute Of Management",
+      "Indian Army",
+      "Ministry Of Railways",
+     
+    ],
+    datasets: [
+      {
+        data: [2000, 4000, 6000, 8000, 10000],
+        backgroundColor: [
+          "rgba(129, 66, 255, 1)",
+          "rgba(75, 192, 192, 1)",
+          "rgba(255, 206, 86, 1)",
+          "rgba(5, 155, 255, 1)",
+          "rgba(255, 61, 103, 1)"
+         
+        ]
+      }
+    ]
+  },
+  options: {
+    tooltips: {
+      enabled: true,
+      fontFamily: "Poppins",
+    },
+    responsive: true,
+    legend: {
+      display: false,
+      position: "bottom",
+      fullWidth: true,
+      labels: {
+        boxWidth: 10,
+        padding: 0
+      }
+    },
+    scales: {
+      yAxes: [
+        {
+
+          barPercentage: 0.2,
+
+          gridLines: {
+            display: true,
+            drawTicks: true,
+            drawOnChartArea: false,
+            color: "#000",
+          lineWidth:2
+          },
+          ticks: {
+            fontColor: "#000",
+            fontFamily: "Poppins",
+            fontSize: 14,
+            fontWeight:700
+          }
+        }
+      ],
+      xAxes: [
+        {
+          gridLines: {
+            display: true,
+            drawTicks: false,
+            tickMarkLength: 5,
+            drawBorder: false,
+             color: "#000",
+          lineWidth:1
+          },
+          ticks: {
+            padding: 0,
+            beginAtZero: true,
+            fontColor: "#000",
+            fontFamily: "Poppins",
+            fontSize: 14,
+            callback: function (label, index, labels) {
+              return label / 1000;
+            }
+          },
+          scaleLabel: {
+            display: true,
+            padding: 10,
+            fontFamily: "Poppins",
+            fontColor: "#555759",
+            fontSize: 16,
+            fontStyle: 700,
+           
+          }
+        }
+      ]
+    }
+  }
+});
+
+/*********************End Maximum Tenders Submitted For Department***************************/
+
+
+var doughnutPieData1 = {
+    datasets: [{
+      data: [],
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.5)',
+        'rgba(54, 162, 235, 0.5)',
+        'rgba(255, 206, 86, 0.5)',
+        'rgba(75, 192, 192, 0.5)',
+        'rgba(153, 102, 255, 0.5)',
+        'rgba(255, 159, 64, 0.5)'
+      ],
+      borderColor: [
+        'rgba(255,99,132,1)',
+        'rgba(54, 162, 235, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(153, 102, 255, 1)',
+        'rgba(255, 159, 64, 1)'
+      ],
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: []
+  };
+  var doughnutPieOptions1 = {
+    responsive: true,
+    animation: {
+      animateScale: true,
+      animateRotate: true
+    },
+    
+  };
+  
+  if ($("#doughnutChart").length) {
+    var doughnutChartCanvas = $("#doughnutChart").get(0).getContext("2d");
+    var doughnutChart = new Chart(doughnutChartCanvas, {
+      type: 'doughnut',
+      data: doughnutPieData1,
+      options: doughnutPieOptions1
+    });
+  }
+  
+    
+  
+  var doughnutPieData = {
+    datasets: [{
+      data: [17,12,11,8,6],
+      backgroundColor: [
+        'rgba(255, 61, 103, 1)',
+        'rgba(5, 155, 255, 1)',
+        'rgba(255, 206, 86, 1)',
+        'rgba(75, 192, 192, 1)',
+        'rgba(129, 66, 255, 1)',
+        'rgba(255, 159, 64, 0.5)'
+      ],
+      borderColor: [
+        '#fff',
+        '#fff',
+        '#fff',
+        '#fff',
+        '#fff',
+        'rgba(255, 159, 64, 1)'
+      ],
+    }],
+
+    // These labels appear in the legend and in the tooltips when hovering different arcs
+    labels: ['Paschim Gujarat Vij Company Limited','Ahmedabad Municipal Corporation','Dakshin Gujarat Vij Company Limited','Gujarat State Electricity Corporation Limited','Western Railway']
+  };
+  var doughnutPieOptions = {
+    responsive: true,
+    animation: {
+      animateScale: true,
+      animateRotate: true
+    },
+    legend: {
+       display: false,
+       position: 'left',
+       labels: {
+           fontColor: 'rgb(255, 99, 132)'
+       }
+     }
+    
+  };
+  
+  // Get context with jQuery - using jQuery's .get() method.
+  if ($("#pieChart").length) {
+    var pieChartCanvas = $("#pieChart").get(0).getContext("2d");
+    var pieChart = new Chart(pieChartCanvas, {
+      type: 'pie',
+      data: doughnutPieData,
+      options: doughnutPieOptions
+    });
+  }
+    </script>
+  </body>
+</html>
