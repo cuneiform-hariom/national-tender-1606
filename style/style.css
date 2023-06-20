@@ -1787,13 +1787,13 @@ body {
   padding: 30px 0;
   position: relative;
 }
-.processcont .processbox::after {
+.processcont .processbox::before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 47%;
+  height: 350px;
   border: solid #CE0695;
-  top: 14%;
+  top: 85px;
   left: 42px;
   z-index: -1;
   border-width: 2px 2px 2px 0;
@@ -1803,6 +1803,7 @@ body {
 .processcont .processbox .prbox {
   padding: 10px;
   position: relative;
+  min-height: 290px;
 }
 .processcont .processbox .prbox .number {
   background: url(../assets/numberbg.png) white no-repeat;
@@ -1826,7 +1827,7 @@ body {
   border: solid black;
   border-width: 2px 2px 0 0;
   transform: rotate(45deg);
-  top: 23%;
+  top: 51px;
   left: 160px;
   z-index: -1;
 }
@@ -1953,6 +1954,53 @@ body {
   display: flex;
 }
 
+.reqpopbox {
+  padding: 40px;
+}
+.reqpopbox .reqform {
+  display: grid;
+  grid-template-columns: 2fr 3fr;
+}
+.reqpopbox .reqform .servcheck {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+.reqpopbox .reqform .servcheck label {
+  font-size: 20px;
+  color: #265285;
+  cursor: pointer;
+}
+.reqpopbox .reqform .servcheck input {
+  width: 15px;
+  height: 15px;
+}
+.reqpopbox .reqform .remarkbox {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.reqpopbox .reqform .remarkbox textarea {
+  width: 100%;
+  height: 200px;
+  resize: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #265285;
+}
+.reqpopbox .reqform .remarkbox button {
+  background: #265285;
+  color: white;
+  font-size: 20px;
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
 @media (max-width: 576px) {
   .grid-4,
   .grid-7,
@@ -2036,7 +2084,7 @@ body {
     flex-direction: column-reverse;
     margin-top: 0 !important;
   }
-  .processcont .processbox::after {
+  .processcont .processbox::before {
     display: none;
   }
   .processcont .processbox .prbox.bottom .number::before,
